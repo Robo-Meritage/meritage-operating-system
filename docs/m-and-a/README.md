@@ -1,4 +1,4 @@
-# The Meritage Method
+——————————————# The Meritage Method
 
 > The Meritage sell-side methodology. Not how M&A works in general — how Meritage consistently executes transactions in the lower-middle market.
 >
