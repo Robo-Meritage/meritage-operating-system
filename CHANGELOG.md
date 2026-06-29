@@ -6,7 +6,27 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) fo
 
 ---
 
-## [0.5.0] – 2026-06-29
+## [0.5.1] – 2026-06-29
+
+### Added
+
+MOS v0.5.1: Positioning module, Frameworks architecture, and module renumbering (13 modules total).
+
+- `docs/m-and-a/05-positioning.md` — Module 05 fully realized: complete Philosophy, Process (5 steps: Buyer Universe Analysis, Investment Thesis Development, Strategic Fit Analysis, Risk Identification and Mitigation Framing, Positioning Brief), Standards, Common Failure Modes (6), AI Assistance, KPIs, and Lessons Learned. Introduces the Investment Thesis Construction Test (Specificity, Buyer, Defensibility, Goldman Sachs). Distinct from GTM: positioning is strategy, GTM is execution.
+- - `docs/frameworks/README.md` — New folder: reusable mental models (frameworks) for Meritage advisory work. Documents the Meritage IP Pyramid: Beliefs → Frameworks → Standards → Methods → Templates → AI Prompts. Explains the distinction between frameworks (define thinking), standards (define expectations), and methods (define execution).
+  - - `docs/frameworks/positioning-framework.md` — First Meritage Framework. Covers the Positioning Equation, the Buyer Lens Framework (Financial, Strategic, Owner-Operator, ESOP), the Investment Thesis Construction Test, the Risk Framing Principle, the Positioning-Valuation Relationship, and the Three Narratives (Internal, Teaser, CIM).
+    - - Modules 06–13 (renumbered from 05–12): GTM, Buyer Outreach, IOIs, Management Calls, LOI, Due Diligence, Closing, Post-Close. Each updated with correct numbering, updated cross-references, and Lessons Learned section.
+      -
+      - ### Updated
+      -
+      - - `docs/m-and-a/04-valuation.md` — Added Lessons Learned section. Updated Related Documents to link to 05-positioning.md as next stage. Updated KPI for Seller alignment rate to reference positioning instead of GTM.
+        - - `docs/m-and-a/README.md` — Updated to 13 modules. Added dependency chain diagram. Added Lessons Learned to module structure table. Updated module status table. Added Relationship to Frameworks section.
+          - - `docs/INDEX.md` — Added Meritage Frameworks section. Updated The Meritage Method to 13 modules with Module 05 Positioning marked Complete.
+            - - `docs/m-and-a/05-gtm.md` through `docs/m-and-a/12-post-close.md` — Replaced with redirect notices pointing to new numbered files (06-13). Archived per MOS archiving conventions.
+              -
+              - ---
+              -
+              - ## [0.5.0] – 2026-06-29
 
 ### Added
 
