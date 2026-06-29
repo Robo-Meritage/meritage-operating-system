@@ -1,0 +1,97 @@
+# Meritage Operating System - .gitignore
+# This repo is Markdown-only. These rules prevent binary and OS files from creeping in.
+
+# ============================================================
+# Operating System Files
+# ============================================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================================
+# Editor and IDE Files
+# ============================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+
+# ============================================================
+# Non-Markdown Document Formats (should not live in this repo)
+# ============================================================
+
+# Microsoft Office
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.pptx
+*.ppt
+
+# Google Workspace exports (use Markdown instead)
+# *.pdf is allowed in assets/ only - do not blanket ignore
+
+# ============================================================
+# Logs and Temporary Files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# ============================================================
+# Node / Build Artifacts (if any tooling is ever added)
+# ============================================================
+
+node_modules/
+dist/
+build/
+.npm
+
+# ============================================================
+# Secrets and Environment Files (never commit these)
+# ============================================================
+
+.env
+.env.*
+*.key
+*.pem
+secrets.md
+credentials.md
