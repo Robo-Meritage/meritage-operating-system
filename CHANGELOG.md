@@ -6,7 +6,24 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) fo
 
 ---
 
-## [0.4.0] — 2026-06-29
+## [0.5.0] – 2026-06-29
+
+### Added
+
+MOS v0.5: Operational Excellence — first fully realized module and cross-cutting standards architecture.
+
+- `docs/m-and-a/04-valuation.md` — Module 04 fully realized: complete Philosophy, Process (5 steps), Standards, Common Failure Modes (7), AI Assistance, and KPIs. Meritage-specific content on financial normalization, comparable transaction analysis, value drivers and detractors, valuation range development, and Seller alignment. No generic investment banking language.
+- - `docs/standards/README.md` — New folder: cross-cutting quality standards that apply across multiple engagement stages. Explains the distinction between standards (quality bar) and modules (process steps), what belongs here, and what is planned.
+  - - `docs/standards/valuation-standard.md` — First Meritage Operating Standard. Defines the Completeness Standard (5 components), Accuracy Standard, Communication Standard, and Prohibited Representations for all valuation work. Status: Authoritative.
+    -
+    - ### Updated
+    -
+    - - `docs/m-and-a/README.md` — Reflects the hub module concept: each module links outward to philosophy, operating standard, process, and assets. Added Status column to module table. Added Relationship to Standards section.
+      - - `docs/INDEX.md` — Added Meritage Operating Standards section. Added Status column to The Meritage Method table showing Module 04 as Complete.
+        -
+        - ---
+        -
+        - ## [0.4.0] — 2026-06-29
 
 ### Added
 
