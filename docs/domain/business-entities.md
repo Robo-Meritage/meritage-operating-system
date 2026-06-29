@@ -1,4 +1,4 @@
-# Business Entities
+—————→→→→→→——→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→—————# Business Entities
 
 > Every object Meritage works with, defined once. Each entity has a canonical definition, owner, lifecycle, and relationships to other entities.
 >
