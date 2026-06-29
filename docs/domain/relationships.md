@@ -1,133 +1,106 @@
 # Entity Relationships
 
-> How the entities in the Meritage domain model connect to each other.
+> How the major Meritage business entities relate to one another. This document provides conceptual understanding, not operational instruction.
 >
 > ---
 >
 > ## Overview
 >
-> This document maps the relationships between the entities defined in [`business-entities.md`](business-entities.md). It answers the question: given any entity, what other entities does it connect to, and how?
+> This document maps the relationships between the entities defined in [`business-entities.md`](business-entities.md). It answers the question: given any entity, what does it connect to and how?
 >
-> Relationship notation used in this document:
-> - `A → B` means A has a relationship to B (A is the subject)
-> - - `one` / `many` describes cardinality
->   - - `[required]` means the relationship must exist; `[optional]` means it may not
->    
->     - ---
+> Two primary relationship flows govern most of what Meritage does:
 >
-> ## Core Relationship Map
->
-> ```
->                     AFFILIATE
->                         |
->               Qualified Introduction
->                         |
->                     OPPORTUNITY
->                         |
->               Engagement Agreement
->                         |
->                    ENGAGEMENT
->                    /         \
->           SELLER             BUYER(S)
->               |                  |
->            COMPANY             NDA(s)
->               |                  |
->              CIM ---------- Distributed to
->               |                  |
->         VALUATION          MANAGEMENT CALL
->                                  |
->                               IOI(s)
->                                  |
->                                LOI
->                                  |
->                           DUE DILIGENCE
->                                  |
->                               CLOSE
->                              /      \
->                      SUCCESS FEE   REVENUE SHARE
->                                         |
->                                     AFFILIATE
-> ```
->
-> ---
->
-> ## Relationship Tables
->
-> ### People and Organizations
->
-> | Entity | Relates To | Cardinality | Required? | Notes |
-> |---|---|---|---|---|
-> | **Seller** | Company | one-to-one | Required | A Seller owns one Company per engagement |
-> | **Seller** | Engagement Agreement | one-to-one | Required | Governs the advisory relationship |
-> | **Seller** | Principal Advisor | many-to-one | Required | One PA owns the Seller relationship |
-> | **Buyer** | NDA | one-to-one | Required | Must sign NDA before receiving CIM |
-> | **Buyer** | CIM | many-to-one | Required | One CIM distributed to many Buyers |
-> | **Buyer** | Management Call | one-to-one | Optional | Not all Buyers advance to Management Call |
-> | **Buyer** | IOI | one-to-one | Optional | Not all Buyers submit an IOI |
-> | **Buyer** | LOI | one-to-one | Optional | At most one Buyer executes the LOI |
-> | **Affiliate** | Qualified Introduction | one-to-many | Optional | An Affiliate may make multiple introductions |
-> | **Affiliate** | Affiliate Agreement | one-to-one | Required | Must have a signed agreement to be an Affiliate |
-> | **Affiliate** | Revenue Share | one-to-many | Optional | Earned only if introduction results in a Close |
-> | **Principal Advisor** | Engagement | one-to-many | Required | One PA may own multiple Engagements |
-> | **Strategic Growth Advisor** | Engagement | many-to-many | Optional | An SGA may support multiple Engagements |
->
-> ---
->
-> ### Deals and Documents
->
-> | Entity | Relates To | Cardinality | Required? | Notes |
-> |---|---|---|---|---|
-> | **Engagement** | Company | one-to-one | Required | One Engagement per Company per process |
-> | **Engagement** | Seller | one-to-one | Required | One Seller per sell-side Engagement |
-> | **Engagement** | Principal Advisor | many-to-one | Required | One PA per Engagement |
-> | **Engagement** | Engagement Agreement | one-to-one | Required | Agreement must be signed to open Engagement |
-> | **Company** | CIM | one-to-one | Required | One CIM per Company per process |
-> | **Company** | Valuation | one-to-many | Optional | May have multiple Valuations over time |
-> | **Company** | Buyers | one-to-many | Optional | Multiple Buyers may pursue one Company |
-> | **Deal** | Lifecycle Stage | one-to-one | Required | Every Deal has exactly one current stage |
-> | **Deal** | Affiliate | many-to-one | Optional | A Deal may or may not have an Affiliate source |
-> | **LOI** | Due Diligence | one-to-one | Required | LOI execution triggers Due Diligence |
-> | **Close** | Success Fee | one-to-one | Required | Every Close generates a Success Fee |
-> | **Close** | Revenue Share | one-to-one | Optional | Only if a Qualified Introduction exists |
->
-> ---
->
-> ## Key Constraints
->
-> These constraints are invariants: they must always be true in a valid Deal.
->
-> 1. **One Principal Advisor per Engagement.** An Engagement cannot have two Principal Advisors. Ownership is singular.
->
-> 2. 2. **NDA before CIM.** A Buyer cannot receive a CIM without first signing an NDA. No exceptions.
+> 1. **The origination flow** — how a Referral Partner or Affiliate introduction becomes a Client and then an Engagement
+> 2. 2. **The deal flow** — how a Seller and an Opportunity progress through the transaction lifecycle to Close
 >   
->    3. 3. **Engagement Agreement before work begins.** No advisory work is performed without a signed Engagement Agreement. Verbal agreements do not constitute engagements.
->      
->       4. 4. **Affiliate Agreement before Qualified Introduction.** An introduction cannot be a Qualified Introduction unless the Affiliate had a signed agreement at the time of the introduction.
->         
->          5. 5. **One active LOI at a time.** A Seller may negotiate with multiple Buyers through IOI stage, but once an LOI is signed, it grants exclusivity. No parallel LOI negotiations.
->            
->             6. 6. **Close triggers Success Fee.** The Success Fee is calculated at Close and cannot be waived without a written amendment to the Engagement Agreement.
->               
->                7. 7. **Revenue Share requires a confirmed Qualified Introduction.** Meritage does not pay Revenue Share without a written introduction notice and confirmation that the introduction meets the criteria in the Affiliate Agreement.
->                  
->                   8. ---
->                  
->                   9. ## Relationship Lifecycle Intersections
->                  
->                   10. Some relationships only exist at specific lifecycle stages:
+>    3. ---
+>   
+>    4. ## Origination Flow
+>   
+>    5. This diagram shows how a new client relationship originates through a Referral Partner or Affiliate.
 >
-> | Relationship | First appears at stage | Ends at stage |
-> |---|---|---|
-> | Seller ↔ Principal Advisor | Engagement (4) | Post-Close |
-> | Company ↔ Buyer | Market (6) | Close (11) or Buyer Withdrawn |
-> | NDA | Market (6) | Expires per terms |
-> | CIM distribution | Market (6) | Close (11) or Withdrawn |
-> | Management Call | Management Calls (7) | Completed (one-time event) |
-> | IOI | IOI Review (8) | Accepted, declined, or superseded |
-> | LOI | LOI Negotiation (9) | Executed, expired, or terminated |
-> | Due Diligence | Due Diligence (10) | Complete or terminated |
-> | Success Fee | Close (11) | Paid |
-> | Revenue Share | Close (11) | Paid |
+>    6. ```mermaid
+>       graph TD
+>           A[Referral Partner / Affiliate] -->|Qualified Introduction| B[Opportunity]
+>           B -->|Engagement Agreement Signed| C[Client]
+>           C -->|Sell-Side| D[Engagement]
+>           D -->|Deal Opened| E[Deal]
+>       ```
+>
+> **Narrative**
+>
+> A Referral Partner or Affiliate makes a Qualified Introduction — a formal written notice that introduces a potential client to Meritage under the terms of a signed agreement. That introduction creates an Opportunity in the Meritage pipeline.
+>
+> If Meritage qualifies the Opportunity and both parties agree to proceed, an Engagement Agreement is signed and the referred party becomes a Client. The Engagement is then opened, and the Client's transaction becomes an active Deal.
+>
+> ---
+>
+> ## Deal Flow
+>
+> This diagram shows how a Seller and their Company move through the transaction process toward Close.
+>
+> ```mermaid
+> graph TD
+>     A[Seller] -->|Owns| B[Company / Opportunity]
+>     B -->|Engagement Signed| C[Engagement]
+>     C -->|GTM + Buyer Outreach| D[Buyer]
+>     D -->|Signs NDA, Receives CIM| E[Management Call]
+>     E -->|Buyer Submits| F[IOI]
+>     F -->|Seller Selects Buyer| G[LOI]
+>     G -->|Triggers| H[Due Diligence]
+>     H -->|Completed| I[Closing]
+> ```
+>
+> **Narrative**
+>
+> The Seller owns a Company and enters the Meritage process as an Opportunity. Once an Engagement Agreement is signed, Meritage prepares deal materials and takes the Company to market (GTM). Qualified Buyers sign NDAs, receive the CIM, and participate in Management Calls.
+>
+> Interested Buyers submit IOIs. Meritage and the Seller evaluate the IOIs and select a preferred Buyer to negotiate a LOI with. LOI execution triggers the Due Diligence period. Successful due diligence leads to Closing.
+>
+> ---
+>
+> ## Key Relationship Rules
+>
+> These rules are invariants — they must be true in any valid Meritage Deal.
+>
+> | Rule | Description |
+> |---|---|
+> | One Principal Advisor per Engagement | An Engagement cannot have two Principal Advisors. Ownership is singular. |
+> | NDA before CIM | A Buyer cannot receive a CIM without first signing an NDA. |
+> | Engagement Agreement before work begins | No advisory work is performed without a signed Engagement Agreement. |
+> | Affiliate Agreement before Qualified Introduction | An introduction is not a Qualified Introduction unless a signed agreement was in place at the time. |
+> | One active LOI at a time | Once a LOI is signed, the Seller grants exclusivity. No parallel LOI negotiations. |
+> | Close triggers Success Fee | The Success Fee is calculated at Close per the Engagement Agreement. |
+> | Revenue Share requires a Qualified Introduction | Meritage does not pay Revenue Share without a written introduction notice that meets the agreement criteria. |
+>
+> ---
+>
+> ## Referral and Affiliate Relationship
+>
+> The Referral Partner and Affiliate entities overlap significantly. Both refer clients to Meritage and both earn Revenue Share. The distinction, where it exists, is in the specific agreement type in use. The executed agreement governs in all cases.
+>
+> ```mermaid
+> graph LR
+>     A[Referral Partner] -->|Signed Agreement| B[Meritage]
+>     C[Affiliate] -->|Signed Agreement| B
+>     B -->|Qualified Introduction Confirmed + Close| D[Revenue Share]
+>     D --> A
+>     D --> C
+> ```
+>
+> ---
+>
+> ## Advisor Relationships
+>
+> The Advisor entity encompasses both Principal Advisors and Strategic Growth Advisors. A Principal Advisor owns the Engagement; a Strategic Growth Advisor supports it.
+>
+> ```mermaid
+> graph TD
+>     A[COO] -->|Assigns| B[Principal Advisor]
+>     B -->|Owns| C[Engagement]
+>     D[Strategic Growth Advisor] -->|Supports| C
+>     C -->|Serves| E[Client]
+> ```
 >
 > ---
 >
@@ -135,10 +108,9 @@
 >
 > - [`business-entities.md`](business-entities.md) — Full entity definitions
 > - - [`glossary.md`](glossary.md) — Term definitions
->   - - [`lifecycle.md`](lifecycle.md) — Lifecycle stage definitions
->     - - `docs/m-and-a/` — Process documentation
->       - - `docs/legal/` — Contract templates
->        
->         - ---
+>   - - [`lifecycle.md`](lifecycle.md) — Engagement lifecycle stages
+>     - - `docs/m-and-a/` — Operational process documentation (pending)
+>      
+>       - ---
 >
 > *Last updated: 2026-06-29*
