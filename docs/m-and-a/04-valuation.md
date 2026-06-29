@@ -12,7 +12,7 @@
 >
 > The valuation produced in this module serves three purposes: it informs Seller expectations before the process begins, it guides the GTM pricing and positioning strategy, and it establishes the floor below which Meritage recommends against accepting an offer. Every downstream decision — which buyers to approach, how to position the company, how to evaluate IOIs, how to respond to LOI terms — flows from this foundation.
 >
-> If the valuation is wrong, the engagement suffers. If the Seller's expectations are misaligned from the beginning, no amount of execution quality in later modules will fix it. This is why valuation comes before GTM, before buyer outreach, and before any external communication about the deal.
+> If the valuation is wrong, the engagement suffers. If the Seller's expectations are misaligned from the beginning, no amount of execution quality in later modules will fix it. This is why valuation comes before positioning, before GTM, before buyer outreach, and before any external communication about the deal.
 >
 > ---
 >
@@ -106,23 +106,23 @@
 >
 > **One-time or non-recurring items:** Legal settlements, one-time consulting fees, extraordinary losses, COVID-related expenses or benefits, and similar items that do not represent the ongoing earning capacity of the business. These must be documented with evidence.
 >
-> **Run-rate adjustments:** Changes to the cost structure that are already in place or contractually committed — for example, a lease renewal at a lower rate, the elimination of a redundant role, or a supplier contract renegotiation. Run-rate adjustments require more scrutiny than addbacks and should only be included when the change is already effective or contractually locked.
+> **Run-rate adjustments:** Changes to the cost structure that are already in place or contractually committed. Run-rate adjustments require more scrutiny than addbacks and should only be included when the change is already effective or contractually locked.
 >
 > The output of Step 1 is an Adjusted EBITDA figure for each of the three years, and a trailing twelve-month (TTM) Adjusted EBITDA if different from the most recent fiscal year.
 >
 > ### Step 2: Comparable Transaction Research
 >
-> Research comparable transactions using available databases and advisor experience. Identify transactions in the same or adjacent industry, similar revenue scale ($5M–$75M revenue is the typical LMM range), and similar EBITDA margin profile.
+> Research comparable transactions using available databases and advisor experience. Identify transactions in the same or adjacent industry, similar revenue scale, and similar EBITDA margin profile.
 >
 > Record the range of EBITDA multiples observed in comparable transactions. Note the date of each transaction — multiples from 2019–2021 may not reflect current market conditions.
 >
-> Layer in current market intelligence: what are financial buyers (private equity, family offices, independent sponsors) currently paying in this sector? What are strategic buyers paying? Are there sector-specific dynamics (roll-up activity, platform scarcity, regulatory tailwinds) that expand or compress multiples?
+> Layer in current market intelligence: what are financial buyers currently paying in this sector? What are strategic buyers paying? Are there sector-specific dynamics that expand or compress multiples?
 >
 > The output of Step 2 is a documented multiple range with commentary on why the range is what it is.
 >
 > ### Step 3: Value Driver and Detractor Assessment
 >
-> Before applying a multiple, assess where within the range this specific company should sit. This requires evaluating:
+> Before applying a multiple, assess where within the range this specific company should sit.
 >
 > **Positive value drivers:**
 > - Tenured management team that will stay post-close
@@ -130,21 +130,21 @@
 >   - - Recurring or contracted revenue
 >     - - Documented processes and systems
 >       - - Positive EBITDA growth trend (3-year)
->         - - Defensible competitive moat (technology, relationships, geography, certification)
+>         - - Defensible competitive moat
 >           - - Clean financials, minimal restatement risk
 >             - - Owner not required for day-to-day operations
 >              
 >               - **Value detractors (multiple compressors):**
->               - - Sole-owner dependency (the business cannot function without the current owner)
->                 - - Customer concentration (one or two customers represent the majority of revenue)
+>               - - Sole-owner dependency
+>                 - - Customer concentration
 >                   - - Declining revenue or margin trend
 >                     - - Undocumented or owner-dependent customer relationships
 >                       - - Deferred capital expenditures or deferred maintenance
->                         - - Key-person risk beyond the owner (key employees without retention plans)
+>                         - - Key-person risk beyond the owner
 >                           - - Pending litigation, regulatory exposure, or environmental liability
->                             - - Financial statements that require significant normalization or that lack credibility
+>                             - - Financial statements that require significant normalization
 >                              
->                               - The output of Step 3 is a written value driver summary that will be incorporated into both the internal valuation memo and the Seller presentation.
+>                               - The output of Step 3 is a written value driver summary.
 >                              
 >                               - ### Step 4: Valuation Range Development
 >                              
@@ -154,21 +154,17 @@
 > - - **Target:** The value we will position for in the market and anchor buyer conversations around.
 >   - - **Stretch:** A realistic upside scenario, achievable with the right buyer and market conditions.
 >    
->     - These are internal figures. The floor is used in negotiation guidance. The target informs GTM positioning. The stretch is used to motivate Seller confidence without creating false expectations.
->    
->     - Note: Enterprise Value is not the same as the Seller's proceeds. Adjustments for debt, working capital, transaction costs, and earnout structures will affect net proceeds. This conversation belongs in the Engagement stage, but it must be revisited here to ensure the Seller understands what they are actually likely to receive.
+>     - Note: Enterprise Value is not the same as the Seller's proceeds. Adjustments for debt, working capital, transaction costs, and earnout structures will affect net proceeds.
 >    
 >     - ### Step 5: Seller Valuation Presentation
->
-> Prepare a Seller-facing valuation summary that presents the Adjusted EBITDA, the multiple rationale, the value drivers and detractors, and the Enterprise Value range. This document is for internal advisory use and is not distributed to buyers.
->
-> The presentation should:
+>    
+>     - Prepare a Seller-facing valuation summary. The presentation should:
 > - Lead with the financial normalization so the Seller can see and agree to the numbers
 > - - Explain the multiple range and the factors that place this company within it
 >   - - Present the valuation range as an estimate, not a guarantee
->     - - Address Seller expectations directly — if the Seller had a number in mind, address it explicitly
+>     - - Address Seller expectations directly
 >      
->       - The conversation accompanying this presentation is not a negotiation. Meritage presents what the data supports and invites the Seller to ask questions. If the Seller's expectations are materially different from the supported range, this is a qualification issue that must be resolved before the engagement proceeds.
+>       - The conversation accompanying this presentation is not a negotiation. Meritage presents what the data supports and invites the Seller to ask questions.
 >      
 >       - ---
 >
@@ -176,11 +172,9 @@
 >
 > **What excellent looks like in this module:**
 >
-> A Meritage valuation package is complete, defensible, and Seller-ready within 10 business days of receiving complete financial information. It contains a documented addback schedule with every adjustment supported by evidence, a comparable transaction summary with sources cited, a written value driver narrative that is specific to this company (not generic), a three-tier Enterprise Value range with rationale, and a Seller presentation that a first-time Seller can understand.
+> A Meritage valuation package is complete, defensible, and Seller-ready within 10 business days of receiving complete financial information. It contains a documented addback schedule with every adjustment supported by evidence, a comparable transaction summary with sources cited, a written value driver narrative that is specific to this company, a three-tier Enterprise Value range with rationale, and a Seller presentation that a first-time Seller can understand.
 >
-> The Principal Advisor can defend every line of the addback schedule. Every addback is labeled as: Confirmed (documentation in hand), Probable (strong basis, documentation pending), or Disputed (addback claimed by Seller but not yet verified). Disputed addbacks are disclosed as such and are not included in the headline Adjusted EBITDA figure without a clear notation.
->
-> The valuation range is grounded in transactions, not aspirations. If the comp set does not support the Seller's desired valuation, the package says so — with data.
+> The Principal Advisor can defend every line of the addback schedule. Every addback is labeled as: Confirmed, Probable, or Disputed. Disputed addbacks are not included in the headline Adjusted EBITDA figure without a clear notation.
 >
 > **Minimum acceptable quality:**
 >
@@ -196,32 +190,32 @@
 >           - - Addbacks are undocumented or based solely on Seller assertions
 >             - - The multiple was selected without reference to comparable transactions
 >               - - The Seller's stated value expectation has not been explicitly addressed
->                 - - The team is proceeding to GTM without Seller alignment on valuation
+>                 - - The team is proceeding to positioning without Seller alignment on valuation
 >                  
 >                   - ---
 >
 > ## Common Failure Modes
 >
 > **1. Taking the engagement before doing the valuation.**
-> This is the most common and most damaging failure mode. Advisors sign an Engagement Agreement, collect a retainer, and then discover the Seller's expectations are 2–3x what the market will pay. The proper sequence is: preliminary valuation discussion before engagement, detailed valuation analysis before GTM launch.
+> This is the most common and most damaging failure mode. Advisors sign an Engagement Agreement, collect a retainer, and then discover the Seller's expectations are 2–3x what the market will pay. The proper sequence is: preliminary valuation discussion before engagement, detailed valuation analysis before positioning and GTM launch.
 >
 > **2. Inflating the valuation to win the client.**
-> An inflated valuation is not a competitive advantage. It is a liability. A Seller who goes to market with an expectation of $15M and receives IOIs in the $8–10M range will blame the advisor. Meritage's reputation depends on setting accurate expectations, not flattering ones.
+> An inflated valuation is not a competitive advantage. It is a liability. A Seller who goes to market with an expectation of $15M and receives IOIs in the $8–10M range will blame the advisor.
 >
 > **3. Treating EBITDA normalization as a formality.**
-> Financial normalization is analytical work. Addbacks that cannot be defended will be challenged — and reversed — during quality of earnings. An addback schedule that does not survive buyer scrutiny creates post-LOI renegotiation risk and can kill a deal. Every addback must be prepared as though a skeptical buyer's accountant will review it.
+> Financial normalization is analytical work. Addbacks that cannot be defended will be challenged — and reversed — during quality of earnings. An addback schedule that does not survive buyer scrutiny creates post-LOI renegotiation risk and can kill a deal.
 >
 > **4. Ignoring operational readiness as a multiple driver.**
-> The multiple is not determined by EBITDA alone. Two companies with identical EBITDA will trade at very different multiples if one has a management team and documented processes and the other is sole-owner dependent. Advisors who apply a generic multiple without assessing operational readiness will either over-value or under-value the company.
+> The multiple is not determined by EBITDA alone. Two companies with identical EBITDA will trade at very different multiples if one has a management team and documented processes and the other is sole-owner dependent.
 >
 > **5. Skipping the Seller alignment conversation.**
-> Presenting a valuation in writing without a live conversation is a mistake. Sellers need to ask questions, express concerns, and process the information. A Seller who receives a valuation memo via email and does not respond is not aligned — they are avoidant. The alignment conversation must happen before the process moves forward.
+> Presenting a valuation in writing without a live conversation is a mistake. A Seller who receives a valuation memo via email and does not respond is not aligned — they are avoidant.
 >
 > **6. Conflating Enterprise Value with Seller proceeds.**
-> Sellers think about what they will receive at closing. Enterprise Value is not what the Seller receives — it is the total value of the business before debt payoff, working capital adjustments, transaction costs, and deferred consideration (earnouts). Advisors who present Enterprise Value without walking through the net proceeds calculation create Sellers who feel deceived at closing.
+> Enterprise Value is not what the Seller receives — it is the total value of the business before debt payoff, working capital adjustments, transaction costs, and deferred consideration. Advisors who present Enterprise Value without walking through the net proceeds calculation create Sellers who feel deceived at closing.
 >
 > **7. Using stale comparable transactions.**
-> The M&A market moves in cycles. A comp from 2021 does not reflect a 2024 or 2025 market. Advisors must use current transaction data or explicitly discount older comps, and must have current market intelligence to support their multiple selection.
+> A comp from 2021 does not reflect a 2024 or 2025 market. Advisors must use current transaction data or explicitly discount older comps.
 >
 > ---
 >
@@ -240,10 +234,10 @@
 >              
 >               - **AI should not:**
 >              
->               - - Determine or recommend the valuation range — this requires advisor judgment, market knowledge, and experience with what buyers in this sector are actually paying
->                 - - Select the EBITDA multiple — multiple selection involves qualitative judgment that is not reducible to data
+>               - - Determine or recommend the valuation range
+>                 - - Select the EBITDA multiple
 >                   - - Advise the Seller on whether an offer price is acceptable
->                     - - Classify addbacks without advisor review — a misclassified addback creates legal and reputational exposure
+>                     - - Classify addbacks without advisor review
 >                       - - Interpret or qualify financial statements — this requires a CPA
 >                         - - Represent any output as a certified appraisal or fairness opinion
 >                           - - Make contact with buyers or share any valuation information externally
@@ -256,9 +250,17 @@
 > |---|---|---|
 > | Valuation cycle time | Business days from receipt of complete financials to delivery of Seller valuation presentation | ≤ 10 business days |
 > | Addback documentation rate | Percentage of proposed addbacks with supporting documentation at time of presentation | ≥ 90% |
-> | Seller alignment rate | Percentage of engagements where Seller confirms alignment with valuation range before GTM launch | 100% |
+> | Seller alignment rate | Percentage of engagements where Seller confirms alignment with valuation range before positioning begins | 100% |
 > | Valuation variance | Difference between Meritage target valuation and final accepted offer price | Track; target within 15% |
 > | Post-LOI addback attrition | Dollar value of addbacks reversed during quality of earnings as a percentage of original Adjusted EBITDA | Track; target < 10% |
+>
+> ---
+>
+> ## Lessons Learned
+>
+> *Pending. To be populated from post-engagement retrospectives.*
+>
+> *Format: Company name (anonymized if preferred) → Key takeaway → Impact on framework*
 >
 > ---
 >
@@ -268,12 +270,13 @@
 > - - [docs/domain/business-entities.md](../domain/business-entities.md) — Entity: Company, Seller, Engagement, Deal
 >   - - [docs/domain/lifecycle.md](../domain/lifecycle.md) — Lifecycle stage: Valuation
 >     - - [docs/standards/valuation-standard.md](../standards/valuation-standard.md) — Cross-cutting valuation quality standard
->       - - [docs/m-and-a/03-engagement.md](03-engagement.md) — Previous stage: Engagement
->         - - [docs/m-and-a/05-gtm.md](05-gtm.md) — Next stage: Go-to-Market
->           - - [docs/m-and-a/reverse-lehman-formula.md](reverse-lehman-formula.md) — Fee structure (pending)
->             - - [docs/company/what-we-believe.md](../company/what-we-believe.md) — The beliefs that underpin our valuation philosophy
->              
->               - ---
+>       - - [docs/frameworks/positioning-framework.md](../frameworks/positioning-framework.md) — Positioning Framework (downstream)
+>         - - [docs/m-and-a/03-engagement.md](03-engagement.md) — Previous stage: Engagement
+>           - - [docs/m-and-a/05-positioning.md](05-positioning.md) — Next stage: Positioning
+>             - - [docs/m-and-a/reverse-lehman-formula.md](reverse-lehman-formula.md) — Fee structure (pending)
+>               - - [docs/company/what-we-believe.md](../company/what-we-believe.md) — The beliefs that underpin our valuation philosophy
+>                
+>                 - ---
 >
 > *Last updated: 2026-06-29*
 > *See [CONTRIBUTING.md](../../CONTRIBUTING.md) for document standards.*
