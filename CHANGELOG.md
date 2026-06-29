@@ -6,60 +6,75 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) fo
 
 ---
 
-## [0.3.0] — 2026-06-29
+## [0.4.0] — 2026-06-29
 
-### Added / Replaced
+### Added
 
-MOS v0.3: Domain Model — the canonical business language for Meritage Partners. All five domain files were written to spec, replacing earlier drafts.
+MOS v0.4: The Meritage Method — sell-side playbook architecture. All 13 files scaffolded with standard section headings. Process content pending module-by-module development.
 
-- `docs/domain/README.md` — Purpose of the Domain Model; why operational documents should reference definitions here rather than redefine terms inline
-- - `docs/domain/glossary.md` — Alphabetical glossary of 21+ terms; each marked Authoritative or Pending Definition; includes AppleBites, Empire Builder, and GTM as Pending Definition terms
-  - - `docs/domain/business-entities.md` — 14 canonical entity definitions (Company, Client, Seller, Buyer, Opportunity, Deal, Advisor, Principal Advisor, Referral Partner, Affiliate, Engagement, CIM, Management Call, Due Diligence); each with Purpose, Owner, Relationships, Lifecycle Status, and Related Documents
-    - - `docs/domain/lifecycle.md` — 12-stage sell-side engagement lifecycle (Lead → Qualification → Engagement → GTM → Buyer Outreach → IOIs → LOIs → Management Calls → Due Diligence → Closing → Post-Close → Earnout Monitoring); each stage described in 1–2 paragraphs; Earnout Monitoring marked Pending Definition
-      - - `docs/domain/relationships.md` — Four Mermaid diagrams (Origination Flow, Deal Flow, Referral/Affiliate, Advisor Relationships); key relationship rules table; narrative explanations for each diagram
-       
-        - ### Updated
-       
-        - - `docs/INDEX.md` — Domain Model section updated to reflect spec-compliant file descriptions
-         
-          - ---
+- `docs/m-and-a/README.md` — The Meritage Method overview: what it is, why modules, module structure table, relationship to Domain Model
+- - `docs/m-and-a/01-origination.md` — Origination module scaffold
+  - - `docs/m-and-a/02-qualification.md` — Qualification module scaffold
+    - - `docs/m-and-a/03-engagement.md` — Engagement module scaffold
+      - - `docs/m-and-a/04-valuation.md` — Valuation module scaffold
+        - - `docs/m-and-a/05-gtm.md` — Go-to-Market module scaffold
+          - - `docs/m-and-a/06-buyer-outreach.md` — Buyer Outreach module scaffold
+            - - `docs/m-and-a/07-indications-of-interest.md` — Indications of Interest module scaffold
+              - - `docs/m-and-a/08-management-calls.md` — Management Calls module scaffold
+                - - `docs/m-and-a/09-letter-of-intent.md` — Letter of Intent module scaffold
+                  - - `docs/m-and-a/10-due-diligence.md` — Due Diligence module scaffold
+                    - - `docs/m-and-a/11-closing.md` — Closing module scaffold
+                      - - `docs/m-and-a/12-post-close.md` — Post-Close module scaffold
+                       
+                        - Each module contains: Purpose, Philosophy, Scope, Roles and Responsibilities, Inputs, Process (pending), Standards (pending), Common Failure Modes (pending), AI Assistance (can/cannot), KPIs (pending), Related Documents.
+                       
+                        - ### Updated
+                       
+                        - - `docs/INDEX.md` — Added The Meritage Method section with all 13 files
+                         
+                          - ---
 
-          ## [0.2.1] — 2026-06-29
+                          ## [0.3.0] — 2026-06-29
 
-          ### Added
+                          ### Added / Replaced
 
-          - `docs/templates/document-template.md` — Reusable blank template for all new MOS documents
-          - - `docs/decisions/adr-001-markdown-as-source-of-truth.md` — ADR documenting the decision to use Markdown as the source of truth for all MOS content
-            - - `docs/INDEX.md` — Master navigation page listing every substantive document in the repository
-             
-              - ---
+                          - `docs/domain/README.md` — Domain Model folder index
+                          - - `docs/domain/glossary.md` — 21+ terms; Authoritative / Pending Definition status
+                            - - `docs/domain/business-entities.md` — 14 canonical entity definitions
+                              - - `docs/domain/lifecycle.md` — 12-stage engagement lifecycle
+                                - - `docs/domain/relationships.md` — Mermaid diagrams and relationship rules
+                                  - - `docs/company/what-we-believe.md` — 10 Meritage beliefs
+                                   
+                                    - ---
 
-              ## [0.2.0] — 2026-06-29
+                                    ## [0.2.1] — 2026-06-29
 
-              ### Added
+                                    ### Added
 
-              - `docs/company/company-overview.md` — Full company overview
-              - - `docs/ai/claude-context.md` — Comprehensive AI context document
-                - - `docs/executive/executive-manual.md` — COO operating playbook
-                  - - `docs/operations/operating-principles.md` — Ten core operating principles
-                    - - `docs/marketing/brand-voice.md` — Brand voice guide
-                     
-                      - ---
+                                    - `docs/templates/document-template.md`
+                                    - - `docs/decisions/adr-001-markdown-as-source-of-truth.md`
+                                      - - `docs/INDEX.md`
+                                       
+                                        - ---
 
-                      ## [0.1.0] — 2026-06-29
+                                        ## [0.2.0] — 2026-06-29
 
-                      ### Added
+                                        ### Added
 
-                      - `README.md` — Repository overview, structure map, naming conventions, and getting started guide
-                      - - `CLAUDE.md` — Short-form AI context file
-                        - - `AGENTS.md` — Agent roster for Claude and GitHub Copilot
-                          - - `CHANGELOG.md` — This file
-                            - - `CONTRIBUTING.md` — Contribution guide
-                              - - `.gitignore` — Excludes OS files, editor artifacts, proprietary formats, secrets
-                                - - All 12 `docs/` subfolder `README.md` index files
-                                  - - All 3 `assets/` subfolder `README.md` index files
-                                    - - `archive/README.md`
-                                     
-                                      - ---
+                                        - `docs/company/company-overview.md`
+                                        - - `docs/ai/claude-context.md`
+                                          - - `docs/executive/executive-manual.md`
+                                            - - `docs/operations/operating-principles.md`
+                                              - - `docs/marketing/brand-voice.md`
+                                               
+                                                - ---
 
-                                      *Last updated: 2026-06-29*
+                                                ## [0.1.0] — 2026-06-29
+
+                                                ### Added
+
+                                                - Repository bootstrap: root files, 12 `docs/` subfolders, `assets/`, `archive/`
+                                               
+                                                - ---
+
+                                                *Last updated: 2026-06-29*
