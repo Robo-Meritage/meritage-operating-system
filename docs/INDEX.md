@@ -1,4 +1,4 @@
-# MOS Document Index
+————————# MOS Document Index
 
 > Master navigation for the Meritage Operating System. Every substantive document in the repository is listed here.
 >
