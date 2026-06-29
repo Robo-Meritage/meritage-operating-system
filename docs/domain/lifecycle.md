@@ -1,340 +1,123 @@
-# Transaction Lifecycle
+# Engagement Lifecycle
 
-> The canonical stages a Deal moves through from first contact to close. Every Deal has exactly one current stage at any time.
+> The high-level stages of a Meritage sell-side engagement, from first contact to post-close. Each stage is described conceptually. Detailed procedures belong in `docs/m-and-a/`.
 >
 > ---
 >
 > ## Overview
 >
-> The Meritage transaction lifecycle defines the standard progression of a sell-side engagement. Each stage has a clear entry condition, a set of activities, and an exit condition that moves the deal to the next stage.
+> A Meritage sell-side engagement moves through twelve stages. Every active Deal has exactly one current stage. A Deal may exit the lifecycle at any stage if the Seller withdraws or the Deal is terminated; these are documented as terminal states, not stages.
 >
-> This document governs how Deals are tracked, reported, and discussed internally. When a document or process references a lifecycle stage, it links here.
->
-> ---
->
-> ## The Sell-Side Lifecycle
+> The lifecycle below describes the standard sell-side process. Buy-side and consulting engagements follow modified sequences that will be documented separately.
 >
 > ```
-> [1] Awareness
->     ↓
-> [2] Qualification
->     ↓
-> [3] Proposal
->     ↓
-> [4] Engagement
->     ↓
-> [5] Preparation
->     ↓
-> [6] Market
->     ↓
-> [7] Management Calls
->     ↓
-> [8] IOI Review
->     ↓
-> [9] LOI Negotiation
->     ↓
-> [10] Due Diligence
->     ↓
-> [11] Close
+> Lead
+>   → Qualification
+>   → Engagement
+>   → GTM
+>   → Buyer Outreach
+>   → IOIs
+>   → LOIs
+>   → Management Calls
+>   → Due Diligence
+>   → Closing
+>   → Post-Close
+>   → Earnout Monitoring
 > ```
 >
-> At any stage, a deal may move to **[Withdrawn]** or **[Dead]**. These are terminal states.
+> ---
+>
+> ## Stages
+>
+> ### Lead
+>
+> Meritage has identified or been made aware of a potential Seller. No qualifying conversation has occurred yet. The Lead may have come from a Referral Partner, an Affiliate, direct outreach, or inbound inquiry. At this stage, Meritage has not evaluated whether the Company or Seller is a fit for an engagement.
 >
 > ---
 >
-> ## Stage Definitions
+> ### Qualification
+>
+> Meritage and the Seller are evaluating each other. Meritage is assessing whether the Company is sellable, whether the Seller's expectations are realistic, and whether the engagement is worth pursuing. The Seller is assessing whether Meritage is the right advisor. This stage typically involves one or more discovery conversations and a preliminary review of the Company's financial profile.
 >
 > ---
 >
-> ### Stage 1: Awareness
+> ### Engagement
 >
-> **What it is**
-> Meritage has identified or been made aware of a potential Seller. No contact has been made, or initial contact has occurred without a substantive conversation.
+> The Engagement Agreement has been signed. Meritage is formally retained. The Deal is live. This stage covers the initial onboarding of the Seller: establishing timelines, collecting documents, beginning financial normalization, and aligning on deal objectives. The Engagement stage ends when deal materials are ready for go-to-market preparation.
 >
-> **Entry condition**
-> A Company or Seller enters the Meritage pipeline for the first time.
+> ---
 >
-> **Key activities**
-> - Initial research on the Company and Seller
-> - - Outreach (cold, warm, or via Affiliate)
->   - - First response received
->    
->     - **Exit condition**
->     - Seller agrees to a qualification conversation.
->    
->     - **Owner**
->     - Principal Advisor or COO.
->    
->     - ---
+> ### GTM (Go-to-Market)
 >
-> ### Stage 2: Qualification
+> Meritage is preparing the Company for the buyer market. This includes financial modeling, drafting the Teaser and CIM, obtaining Seller approval on all materials, and building the target buyer list. The Company is not yet being presented to buyers during this stage. GTM ends when the CIM is approved and outreach is ready to begin.
 >
-> **What it is**
-> Meritage is evaluating whether the Company and Seller are a fit for an engagement. The Seller is evaluating whether Meritage is the right advisor.
+> ---
 >
-> **Entry condition**
-> Seller has agreed to a substantive conversation.
+> ### Buyer Outreach
 >
-> **Key activities**
-> - Discovery call(s) with Seller
-> - - Preliminary financial review (P&L, revenue, EBITDA)
->   - - Assessment of seller readiness and motivation
->     - - Preliminary valuation range discussion
->       - - Assessment of deal complexity
->        
->         - **Exit condition**
->         - Meritage decides to pursue an engagement AND Seller is receptive to a proposal.
->        
->         - **Owner**
->         - Principal Advisor.
->        
->         - ---
+> Meritage is actively contacting qualified Prospective Buyers. Teasers are distributed, interest is gauged, NDAs are executed, and CIMs are delivered to buyers who have signed. This stage focuses on generating a qualified pool of interested buyers. Buyer Outreach ends when Management Calls are scheduled with qualified buyers.
 >
-> ### Stage 3: Proposal
+> ---
 >
-> **What it is**
-> Meritage has prepared and delivered an Engagement Proposal to the Seller. The Seller is reviewing or negotiating terms.
+> ### IOIs
 >
-> **Entry condition**
-> Engagement Proposal sent to Seller.
+> Management Calls have occurred and Meritage is soliciting and receiving Indications of Interest from Buyers. Each IOI represents a Buyer's preliminary view of price and structure. Meritage analyzes the IOIs and advises the Seller on which Buyers to advance. This stage ends when the Seller selects one or more Buyers to pursue to LOI.
 >
-> **Key activities**
-> - Deliver Engagement Proposal (scope, fees, timeline)
-> - - Answer Seller questions
->   - - Negotiate terms if needed
->     - - Follow up until decision
->      
->       - **Exit condition**
->       - Engagement Agreement signed, or Seller declines.
->      
->       - **Owner**
->       - Principal Advisor.
->      
->       - ---
+> ---
 >
-> ### Stage 4: Engagement
+> ### LOIs
 >
-> **What it is**
-> The Engagement Agreement is signed. Meritage is formally retained. The Deal is live.
+> Meritage and the Seller are negotiating a Letter of Intent with the selected Buyer or Buyers. The LOI establishes the agreed price, structure, exclusivity period, and key conditions. This stage ends when a LOI is fully executed by both parties. At that point, the selected Buyer has exclusivity and parallel negotiations cease.
 >
-> **Entry condition**
-> Engagement Agreement fully executed.
+> ---
 >
-> **Key activities**
-> - Onboard Seller (process overview, document request list)
-> - - Assign Principal Advisor
->   - - Create Deal record in CRM
->     - - Begin financial normalization
->       - - Set timeline and milestones
->        
->         - **Exit condition**
->         - All materials are collected and Preparation begins.
->        
->         - **Owner**
->         - Principal Advisor.
->        
->         - ---
+> ### Management Calls
 >
-> ### Stage 5: Preparation
+> Note: Management Calls typically occur during or before the IOI stage, but they are listed as a discrete stage here because they represent a distinct milestone — the first substantive meeting between the Buyer and the Seller's management team. Meritage sets the agenda and facilitates each call. The outcome of a Management Call typically determines whether a Buyer submits an IOI.
 >
-> **What it is**
-> Meritage is building the deal materials: financial model, Teaser, and CIM. The Company is not yet being marketed.
+> ---
 >
-> **Entry condition**
-> Seller has provided financial statements and business information.
+> ### Due Diligence
 >
-> **Key activities**
-> - Financial normalization and EBITDA analysis
-> - - Draft Teaser
->   - - Draft CIM
->     - - Seller reviews and approves CIM
->       - - Build target buyer list
->        
->         - **Exit condition**
->         - CIM approved by Seller. Buyer outreach list finalized.
->        
->         - **Owner**
->         - Principal Advisor.
->        
->         - ---
+> The Buyer and their advisors are conducting a formal investigation of the Company following LOI execution. Meritage coordinates the Seller's responses and manages the process. Due diligence typically covers financial, legal, operational, and commercial matters. This stage ends when due diligence is declared complete and the parties move toward definitive transaction documents, or when the Deal is terminated.
 >
-> ### Stage 6: Market
+> ---
 >
-> **What it is**
-> Meritage is actively marketing the Company to qualified Prospective Buyers. NDAs are being executed. CIMs are being distributed.
+> ### Closing
 >
-> **Entry condition**
-> CIM approved and buyer outreach initiated.
+> All transaction documents have been negotiated and the parties are preparing to execute and fund the transaction. This stage covers the finalization of the Purchase Agreement, satisfaction of closing conditions, and coordination of the closing process. The stage ends when consideration is transferred and all documents are executed.
 >
-> **Key activities**
-> - Send Teasers to target buyers
-> - - Qualify interested buyers
->   - - Distribute NDAs
->     - - Distribute CIM to signed buyers
->       - - Track buyer interest and follow up
->        
->         - **Exit condition**
->         - Management Calls scheduled with qualified Buyers.
->        
->         - **Owner**
->         - Principal Advisor.
->        
->         - ---
+> ---
 >
-> ### Stage 7: Management Calls
+> ### Post-Close
 >
-> **What it is**
-> Qualified Buyers are meeting the Seller's management team. Meritage facilitates these calls and evaluates buyer seriousness.
+> The transaction has closed. Meritage's active advisory role has ended. This stage covers post-close obligations including Success Fee invoicing, Revenue Share calculation and payment to any Referral Partner or Affiliate, client communication, and internal deal record completion. Some engagements include transition support or limited advisory services in the immediate post-close period.
 >
-> **Entry condition**
-> At least one Buyer has signed an NDA and reviewed the CIM.
+> ---
 >
-> **Key activities**
-> - Prepare Seller for Management Calls
-> - - Set Management Call agenda
->   - - Facilitate Management Calls
->     - - Debrief with Seller after each call
->       - - Follow up with Buyers for IOIs
->        
->         - **Exit condition**
->         - IOIs received from qualified Buyers.
->        
->         - **Owner**
->         - Principal Advisor.
->        
->         - ---
+> ### Earnout Monitoring
 >
-> ### Stage 8: IOI Review
+> *Status: Pending Definition*
 >
-> **What it is**
-> Meritage and the Seller are reviewing Indications of Interest from Buyers and selecting which Buyers to advance to LOI negotiations.
+> Some transactions include earnout provisions — deferred payments contingent on the Company's post-close performance. When a Deal includes an earnout, Meritage may have ongoing monitoring or advisory obligations. The specific scope, duration, and compensation for Earnout Monitoring have not yet been formally defined and will vary by Engagement Agreement.
 >
-> **Entry condition**
-> At least one IOI received.
+> ---
 >
-> **Key activities**
-> - Analyze and compare IOIs (price, structure, terms)
-> - - Advise Seller on which Buyers to advance
->   - - Communicate decisions to Buyers
->     - - Request LOIs from selected Buyers
->      
->       - **Exit condition**
->       - Seller selects a preferred Buyer. LOI negotiation begins.
->      
->       - **Owner**
->       - Principal Advisor.
+> ## Terminal States
+>
+> **Withdrawn** — The Seller has decided to remove the Company from the market before a transaction closed. The Engagement Agreement governs any fees or obligations. The Deal record is archived, not deleted.
+>
+> **Terminated** — A Deal that ended after LOI execution due to failed due diligence, inability to agree on final terms, financing failure, or another cause. Distinguished from Withdrawn in that significant work occurred post-LOI.
+>
+> ---
+>
+> ## Related Documents
+>
+> - [`business-entities.md`](business-entities.md) — Entity definitions referenced in this lifecycle
+> - - [`glossary.md`](glossary.md) — Definitions for all terms used here
+>   - - [`relationships.md`](relationships.md) — Entity relationship diagrams
+>     - - `docs/m-and-a/` — Detailed process playbooks for each stage (pending)
 >      
 >       - ---
 >
-> ### Stage 9: LOI Negotiation
->
-> **What it is**
-> Meritage and the Seller are negotiating the Letter of Intent with a selected Buyer. This stage ends when an LOI is executed or negotiations collapse.
->
-> **Entry condition**
-> Seller has selected a preferred Buyer and LOI has been requested.
->
-> **Key activities**
-> - Review LOI draft from Buyer
-> - - Advise Seller on terms (price, structure, exclusivity period, conditions)
->   - - Negotiate with Buyer and their counsel
->     - - Execute final LOI
->      
->       - **Exit condition**
->       - LOI fully executed by both parties.
->      
->       - **Owner**
->       - Principal Advisor (negotiates); external counsel (drafts).
->      
->       - ---
-> 
-### Stage 10: Due Diligence
-
-**What it is**
-The Buyer is conducting financial, legal, and operational due diligence on the Company. Meritage coordinates the Seller's responses and manages the process.
-
-**Entry condition**
-LOI fully executed.
-
-**Key activities**
-- Establish virtual data room (VDR)
-- - Respond to Buyer's due diligence requests
-  - - Coordinate QoE (Quality of Earnings) process
-    - - Address issues as they arise
-      - - Manage Seller's counsel on legal due diligence
-        - - Work toward definitive transaction documents
-         
-          - **Exit condition**
-          - Due diligence complete. Definitive Agreement executed or deal terminated.
-         
-          - **Owner**
-          - Principal Advisor.
-         
-          - ---
-
-          ### Stage 11: Close
-
-          **What it is**
-          All transaction documents have been executed and consideration has been transferred. The Deal is complete.
-
-          **Entry condition**
-          Definitive Agreement executed. Closing conditions satisfied.
-
-          **Key activities**
-          - Coordinate closing checklist
-          - - Confirm fund transfer
-            - - Execute closing documents
-              - - Calculate and invoice Success Fee
-                - - Notify Affiliate (if applicable) and calculate Revenue Share
-                  - - Conduct post-close debrief
-                   
-                    - **Exit condition**
-                    - Consideration transferred. Success Fee invoiced. Deal record closed.
-                   
-                    - **Owner**
-                    - Principal Advisor.
-                   
-                    - ---
-
-                    ## Terminal States
-
-                    **Withdrawn**
-                    The Seller has decided to remove the Company from the market before a transaction closed. The Engagement Agreement governs any fees or obligations. The Deal record is archived, not deleted.
-
-                    **Dead**
-                    A deal that terminated after LOI execution due to failed due diligence, inability to agree on final terms, financing failure, or other cause. Distinguished from Withdrawn in that significant work occurred post-LOI.
-
-                    ---
-
-                    ## Pipeline Reporting
-
-                    Deals are reported by stage in the weekly Deal Review. Each stage has an implied probability used for pipeline value estimation:
-
-                    | Stage | Implied Probability |
-                    |---|---|
-                    | Awareness | 5% |
-                    | Qualification | 15% |
-                    | Proposal | 25% |
-                    | Engagement | 40% |
-                    | Preparation | 50% |
-                    | Market | 55% |
-                    | Management Calls | 65% |
-                    | IOI Review | 75% |
-                    | LOI Negotiation | 80% |
-                    | Due Diligence | 90% |
-                    | Close | 100% |
-
-                    *Probabilities are estimates for pipeline reporting only. Actual deal outcomes vary.*
-
-                    ---
-
-                    ## Related Documents
-
-                    - [`business-entities.md`](business-entities.md) — Entity definitions with per-entity lifecycle
-                    - - [`glossary.md`](glossary.md) — Definitions for all terms used in this document
-                      - - `docs/m-and-a/` — Detailed process playbooks for each stage
-                        - - `docs/executive/executive-manual.md` — Deal Review cadence
-                         
-                          - ---
-
-                          *Last updated: 2026-06-29*
+> *Last updated: 2026-06-29*
