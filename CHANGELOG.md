@@ -1,49 +1,50 @@
 # Changelog
 
-> All notable changes to the Meritage Operating System are documented here.
-> Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+All notable changes to the Meritage Operating System are documented here.
 
-## [Unreleased]
-
-### Planned
-- Department-level README files for each docs/ subfolder
-- Decision log entries for foundational company decisions
-- SOPs for core operating workflows
-- Onboarding documentation
+This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format.
 
 ---
 
-## [0.1.0] - 2026-06-29
+## [0.2.0] — 2026-06-29
 
 ### Added
-- README.md - Full repository overview, structure map, naming conventions, and getting started guide
-- CLAUDE.md - AI context file for Claude and other language model assistants
-- AGENTS.md - Agent roster, authorized actions, constraints, and operating principles
-- CHANGELOG.md - This file; tracks all changes to the MOS
-- CONTRIBUTING.md - Contribution guidelines, naming conventions, and document standards
-- .gitignore - Ignores OS files, editor artifacts, and non-Markdown binaries
-- docs/company/ - Mission, values, org structure, and culture documents
-- docs/executive/ - OKRs, board materials, and leadership playbooks
-- docs/operations/ - SOPs, workflows, and the weekly operating rhythm
-- docs/m-and-a/ - Deal frameworks, due diligence, and integration docs
-- docs/products/ - Product specs, roadmaps, and feature documentation
-- docs/marketing/ - Brand, campaigns, affiliate, and growth docs
-- docs/hr/ - Hiring, onboarding, compensation, and performance docs
-- docs/legal/ - Contract templates, compliance, and entity structure
-- docs/technology/ - Tech stack, architecture, security, and AI tooling
-- docs/templates/ - Reusable document templates
-- docs/ai/ - AI agent instructions, prompt library, and workflows
-- docs/decisions/ - Architecture Decision Records (ADRs)
-- assets/logos/ - Brand logo files
-- assets/diagrams/ - Architecture and process diagrams
-- assets/presentations/ - Slide decks and pitch materials
-- archive/ - Deprecated documents kept for historical reference
 
----
+- `docs/company/company-overview.md` — Full company overview: who we are, what we do, our market, fee philosophy, values, and how we differ from traditional brokers
+- - `docs/ai/claude-context.md` — Comprehensive AI context document covering writing style, decision framework, Meritage terminology, document standards, workflows, and instructions for Claude
+  - - `docs/executive/executive-manual.md` — COO operating playbook: weekly rhythm, decision-making framework, meeting structure, KPI philosophy, technology principles, hiring, delegation model, and communication standards
+    - - `docs/operations/operating-principles.md` — Ten core operating principles with guidance on application and amendment process
+      - - `docs/marketing/brand-voice.md` — Brand voice guide: voice attributes, writing guidelines, tone by channel, word choice table, and editing checklist
+       
+        - ---
 
-## How to Update This File
+        ## [0.1.0] — 2026-06-29
 
-1. Add an entry under [Unreleased] with today's date.
-2. Categorize your change: Added, Changed, Deprecated, Removed, Fixed, or Security.
-3. When changes represent a milestone, move them to a versioned section.
-4. Keep entries concise - one line per file or change.
+        ### Added
+
+        - `README.md` — Repository overview, structure map, naming conventions, and getting started guide
+        - - `CLAUDE.md` — Short-form AI context file with folder guide, role definition, dos and don'ts, and document standards
+          - - `AGENTS.md` — Agent roster for Claude and GitHub Copilot with authorized actions, constraints, and operating principles
+            - - `CHANGELOG.md` — This file, following Keep a Changelog format
+              - - `CONTRIBUTING.md` — Contribution guide: naming conventions, document structure template, commit message format, archiving rules
+                - - `.gitignore` — Excludes OS files, editor artifacts, proprietary formats (.docx, .xlsx, .pptx), secrets, and node_modules
+                  - - `docs/company/README.md` — Company folder index
+                    - - `docs/executive/README.md` — Executive folder index
+                      - - `docs/operations/README.md` — Operations folder index
+                        - - `docs/m-and-a/README.md` — M&A folder index
+                          - - `docs/products/README.md` — Products folder index
+                            - - `docs/marketing/README.md` — Marketing folder index
+                              - - `docs/hr/README.md` — HR folder index
+                                - - `docs/legal/README.md` — Legal folder index
+                                  - - `docs/technology/README.md` — Technology folder index
+                                    - - `docs/templates/README.md` — Templates folder index
+                                      - - `docs/ai/README.md` — AI folder index
+                                        - - `docs/decisions/README.md` — Decisions folder index
+                                          - - `assets/logos/README.md` — Logos folder index
+                                            - - `assets/diagrams/README.md` — Diagrams folder index
+                                              - - `assets/presentations/README.md` — Presentations folder index
+                                                - - `archive/README.md` — Archive folder index
+                                                 
+                                                  - ---
+
+                                                  *Last updated: 2026-06-29*
