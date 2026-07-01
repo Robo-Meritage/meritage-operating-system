@@ -1,4 +1,4 @@
-————————# MOS Document Index
+# MOS Document Index
 
 > Master navigation for the Meritage Operating System. Every substantive document in the repository is listed here.
 >
@@ -18,53 +18,70 @@
 >
 > ## Domain Model
 >
-> The canonical business language for Meritage Partners. The foundation for all other documents.
->
 > | Document | Description |
 > |---|---|
 > | [domain/README.md](domain/README.md) | Purpose of the Domain Model and how to use it |
 > | [domain/glossary.md](domain/glossary.md) | Alphabetical definitions of every key term |
 > | [domain/business-entities.md](domain/business-entities.md) | Canonical entity definitions |
-> | [domain/lifecycle.md](domain/lifecycle.md) | 12-stage engagement lifecycle |
+> | [domain/lifecycle.md](domain/lifecycle.md) | 13-stage engagement lifecycle |
 > | [domain/relationships.md](domain/relationships.md) | Entity relationship diagrams (Mermaid) |
 >
 > ---
 >
 > ## The Meritage Method
 >
-> 12 modular documents covering every stage of a sell-side engagement. Each module is a hub linking to its philosophy, operating standard, process, and supporting assets.
+> 13 modular documents covering every stage of a sell-side engagement. Each module is a hub linking to its framework, standard, process, and templates.
 >
 > | Document | Stage | Status |
 > |---|---|---|
-> | [m-and-a/README.md](m-and-a/README.md) | Overview and module architecture | — |
+> | [m-and-a/README.md](m-and-a/README.md) | Overview, dependency chain, module architecture | — |
 > | [m-and-a/01-origination.md](m-and-a/01-origination.md) | Origination | Scaffolded |
-> | [m-and-a/02-qualification.md](m-and-a/02-qualification.md) | Qualification | Scaffolded |
+> | [m-and-a/02-qualification.md](m-and-a/02-qualification.md) | Qualification | **Complete** |
 > | [m-and-a/03-engagement.md](m-and-a/03-engagement.md) | Engagement | Scaffolded |
 > | [m-and-a/04-valuation.md](m-and-a/04-valuation.md) | Valuation | **Complete** |
-> | [m-and-a/05-gtm.md](m-and-a/05-gtm.md) | Go-to-Market | Scaffolded |
-> | [m-and-a/06-buyer-outreach.md](m-and-a/06-buyer-outreach.md) | Buyer Outreach | Scaffolded |
-> | [m-and-a/07-indications-of-interest.md](m-and-a/07-indications-of-interest.md) | Indications of Interest | Scaffolded |
-> | [m-and-a/08-management-calls.md](m-and-a/08-management-calls.md) | Management Calls | Scaffolded |
-> | [m-and-a/09-letter-of-intent.md](m-and-a/09-letter-of-intent.md) | Letter of Intent | Scaffolded |
-> | [m-and-a/10-due-diligence.md](m-and-a/10-due-diligence.md) | Due Diligence | Scaffolded |
-> | [m-and-a/11-closing.md](m-and-a/11-closing.md) | Closing | Scaffolded |
-> | [m-and-a/12-post-close.md](m-and-a/12-post-close.md) | Post-Close | Scaffolded |
+> | [m-and-a/05-positioning.md](m-and-a/05-positioning.md) | Positioning | **Complete** |
+> | [m-and-a/06-gtm.md](m-and-a/06-gtm.md) | Go-to-Market | Scaffolded |
+> | [m-and-a/07-buyer-outreach.md](m-and-a/07-buyer-outreach.md) | Buyer Outreach | Scaffolded |
+> | [m-and-a/08-indications-of-interest.md](m-and-a/08-indications-of-interest.md) | Indications of Interest | Scaffolded |
+> | [m-and-a/09-management-calls.md](m-and-a/09-management-calls.md) | Management Calls | Scaffolded |
+> | [m-and-a/10-letter-of-intent.md](m-and-a/10-letter-of-intent.md) | Letter of Intent | Scaffolded |
+> | [m-and-a/11-due-diligence.md](m-and-a/11-due-diligence.md) | Due Diligence | Scaffolded |
+> | [m-and-a/12-closing.md](m-and-a/12-closing.md) | Closing | Scaffolded |
+> | [m-and-a/13-post-close.md](m-and-a/13-post-close.md) | Post-Close | Scaffolded |
 >
 > ---
 >
 > ## Meritage Operating Standards
 >
-> Cross-cutting quality standards that apply across multiple engagement stages. Defined once here, referenced everywhere they apply.
+> Cross-cutting quality standards. Defined once, referenced everywhere they apply.
 >
 > | Document | Description | Status |
 > |---|---|---|
 > | [standards/README.md](standards/README.md) | Purpose, scope, and index of all standards | — |
-> | [standards/valuation-standard.md](standards/valuation-standard.md) | Valuation quality standard — completeness, accuracy, communication | **Complete** |
+> | [standards/valuation-standard.md](standards/valuation-standard.md) | Valuation quality standard | **Complete** |
+> | [standards/client-qualification-standard.md](standards/client-qualification-standard.md) | Client qualification quality standard | **Complete** |
 > | standards/client-communication-standard.md | Standards for all Seller-facing communication | Planned |
 > | standards/buyer-communication-standard.md | Standards for all Buyer-facing communication | Planned |
 > | standards/document-quality-standard.md | Standards for externally distributed documents | Planned |
 > | standards/proposal-standard.md | Standards for new business proposals | Planned |
 > | standards/due-diligence-standard.md | Standards for due diligence management | Planned |
+>
+> ---
+>
+> ## Meritage Frameworks
+>
+> Reusable mental models for advisory work. Frameworks define thinking. Standards define expectations. Methods define execution.
+>
+> | Document | Description | Status |
+> |---|---|---|
+> | [frameworks/README.md](frameworks/README.md) | IP Pyramid, what belongs here, index of all frameworks | — |
+> | [frameworks/meritage-5p-framework.md](frameworks/meritage-5p-framework.md) | The 5P qualification lens: People, Performance, Position, Potential, Preparedness | **Complete** |
+> | [frameworks/positioning-framework.md](frameworks/positioning-framework.md) | The framework for translating valuation into investment narrative | **Complete** |
+> | frameworks/valuation-framework.md | How Meritage thinks about value in the lower middle market | Planned |
+> | frameworks/buyer-qualification-framework.md | How Meritage evaluates buyer seriousness, capability, and fit | Planned |
+> | frameworks/management-call-framework.md | How Meritage reads buyer behavior during Management Calls | Planned |
+> | frameworks/due-diligence-framework.md | How Meritage thinks about risk exposure during buyer diligence | Planned |
+> | frameworks/risk-assessment-framework.md | How Meritage identifies, categorizes, and frames deal risk | Planned |
 >
 > ---
 >
@@ -130,6 +147,8 @@
 > | Document | Description |
 > |---|---|
 > | [templates/document-template.md](templates/document-template.md) | Standard blank template for all new MOS documents |
+> | [templates/qualification-discovery-questionnaire.md](templates/qualification-discovery-questionnaire.md) | Structured discovery conversation guide (5P Framework) |
+> | [templates/client-qualification-scorecard.md](templates/client-qualification-scorecard.md) | 100-point qualification scoring instrument |
 >
 > ---
 >
