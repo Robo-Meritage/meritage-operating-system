@@ -495,3 +495,43 @@ Update this log after every ingestion session.
 - What happened with the APA clarification email on Schmidt? Was annual EBITDA measurement confirmed?
 
 ---
+
+
+---
+
+### Batch 10 — 2026-07-01
+
+**Source:** Meritage Project (May 2026 — Apr/May 2026)
+**Conversations Processed:** 13 full reads (PTO Policy Recommendations, Branch/Reverse Lehman Formula [K2D Final], Email Rewrite Request, Investment Banking Riddle, Referral Fee Structure Explanation, M&A Category Clarification, Exhibit A Rewrite, Fee Structure Options, Client Naming Suggestions, Adding 10th Person Layout, Increase Profit Webinar, CIM Comparison and Grading context, Employee vs Contractor Classification)
+**Ingested By:** Claude Sonnet 4.6
+
+#### Records Created
+| File | Category | Topic |
+|---|---|---|
+| `hr/pto-sick-leave-policy-2026-05.md` | hr/ | PTO (120 hrs front-loaded) vs. Sick Leave (40 hrs accrued); Gusto configuration; Alabama break policy (minimal administrative); Tennessee compliance notes |
+| `agreements/buy-side-engagement-fee-structures-2026-05.md` | agreements/ | Three buy-side fee structure tiers: Full Mandate ($6.5-8.5K/mo + 3-5%), Phased Mandate ($2K/mo phase 1 + $5K/mo + Reverse Lehman phase 2), Success-Fee Dominant ($7.5K activation + 3.5-4.5%) |
+
+#### Records Deduplicated
+- Branch · Reverse Lehman Formula (May 12) — K2D final agreement confirmed: 4% top tier + $1M cap; Schedule 2 approved buyer list language (addendum process); deduplicated to k2d-engagement-fee-negotiation.md
+- Referral Fee Structure Explanation (May 7) — Rule: no separate referral fee when sourcer is also running the deal; referral fee only when opportunity handed off to broader team; deduplicated to reverse-lehman-fee-framework.md
+- M&A Category Clarification (May 6) — Active deal pipeline as of May 2026 documented (Bananas, Stockyard, Dairyland, Trees, Umbrella, Alchemy, Buffalo, Baloon, Skyvista, Wonka); outreach segmentation principle ("match deals to buyer type")
+- Email Rewrite Request (May 12) — Email for Jessica re: Stahl onboarding; no new knowledge, writing style only
+- Investment Banking Riddle (May 7) — Score 1: trivia, no institutional knowledge
+- Client Naming Suggestions (May 13) — Score 2: one-off naming task
+- Adding 10th Person Layout (May 15) — Score 1: visual design task only
+
+#### Records Ignored
+- Investment Banking Riddle — Score 1: trivia question ("I have no idea" response)
+- Adding 10th Person Layout — Score 1: image generation request only
+- Increase Profit Webinar — Score 2: draft email, no enduring knowledge
+
+#### Conflicts Flagged
+- K2D deal: Final terms (4% + $1M cap) differ from standard Reverse Lehman. This client-specific exception is now documented. The Schedule 2 approved buyer list process should be considered for inclusion in standard engagement agreement templates.
+- Employee vs Contractor Classification — conversation suggests Skinner may have been reclassified or there was ambiguity; cross-check with HR files re: performance review prohibition for 1099s.
+
+#### Open Questions
+- Was the Merlin Law Group (buy-side engagement) actually activated? Which option did they choose (1, 2, or 3)?
+- The M&A Category Clarification shows "Project Wonka" as a Family Office — confirm current status.
+- Referral fee policy: what is the specific percentage rate for hand-off referrals? This was described but not quantified in this conversation.
+
+---
