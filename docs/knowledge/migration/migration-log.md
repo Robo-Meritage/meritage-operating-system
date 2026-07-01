@@ -458,3 +458,40 @@ Update this log after every ingestion session.
 ---
 
 *Part of the Meritage Operating System. See CONTRIBUTING.md for standards.*
+
+
+---
+
+### Batch 9 — 2026-07-01
+
+**Source:** Meritage Project (May–Jun 2026)
+**Conversations Processed:** 10 full reads (Transcript Analysis and Prep, Trial Structure Confirmation, Email Introduction Rewrite, Email Draft Assistance, Gallant Proposal Generation, CRM Naming Strategy, Deal Chat Communication, Skinner Attendance Critique, Schmidt Deal Pay Breakdown, GTM Deck Overhaul)
+**Ingested By:** Claude Sonnet 4.6
+
+#### Records Created
+| File | Category | Topic |
+|---|---|---|
+| `operations/gtm-client-journey-architecture-2026-05.md` | operations/ | Two-pathway client model (Empire Builder vs Sell-Side); four-presentation ecosystem; Apple Bites as segmentation engine; Forge case study (education reframes price) |
+| `deal-analysis/schmidt-roofing-earnout-case-study-2026-05.md` | deal-analysis/ | Schmidt Roofing fee structure — $750K at close + $250K max contingent EBITDA fees (2026/27/28 thresholds); lessons on signed docs vs. internal expectations |
+| `operations/roam-deal-communication-policy-2026-05.md` | operations/ | Roam deal-specific chat policy; Roam as performance management tool; team engagement benchmarks |
+| `applebites/gallant-dill-partnership-economics-2026-05.md` | applebites/ | Gallant Dill: $10K/month licensing + 3% Apple Bites revenue participation + 10% Empire Builder referral; CRM naming recommendation (Orchard) |
+
+#### Records Deduplicated
+- Trial Structure Confirmation (May 20) — DealJet agreement context; DealJet initial terms ($1K/intro + 5%) vs final terms (no upfront + 10%); update notes in DealJet file
+- Transcript Analysis and Prep (Jun 24) — deal readiness framework reinforces existing `deal-readiness-assessment-framework.md`; HVAC opportunity specific but methodology consistent
+- CRM Naming Strategy (May 15) — "Orchard" recommendation captured in Gallant file; strategic architecture context in GTM journey file
+
+#### Records Ignored
+- Email Introduction Rewrite (May 15) — Score 1: brief intro email rewrite, no enduring knowledge
+
+#### Conflicts Flagged
+- Schmidt Deal: Internal team discussion referenced "$250K in 90 days then $500K later" but the signed Fee Agreement shows EBITDA-contingent payments with annual measurement and 30-day payment post-determination. Lesson documented. No conflict requiring Daniel's review — signed document controls.
+- Gallant Dill partnership economics are "proposed structure" (May 2026). Confirm whether economics were finalized or remain in negotiation.
+- GTM deck overhaul reveals MISSING internal sales decision framework (lead routing/qualification scoring). This is a critical operational gap as team scales. Needs Daniel's prioritization.
+
+#### Open Questions
+- Was the Gallant Dill partnership finalized at proposed economics ($10K/mo + 3% + 10% EB)?
+- Has the "one canonical pathway map" (operational decision tree) been built since this conversation?
+- What happened with the APA clarification email on Schmidt? Was annual EBITDA measurement confirmed?
+
+---
