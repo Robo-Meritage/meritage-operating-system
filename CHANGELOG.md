@@ -1,4 +1,18 @@
-## [v0.7.3] — 2026-07-01
+## [v0.7.4] — 2026-07 — Staged Migration Architecture
+
+### Upgraded
+- `docs/knowledge/chat-history/README.md` — Revised ingestion pipeline: Classify → Extract → Deduplicate → Link → Commit → Log. Added two-phase migration architecture: Phase 1 (Meritage Project, highest signal), Phase 2 (full export with classification filter). Added deduplication requirement and rationale. Updated to link to new migration log.
+-
+- ### Added
+- - `docs/knowledge/migration/README.md` — Migration folder overview: purpose, architecture summary, why a migration log matters, current phase status.
+  - - `docs/knowledge/migration/migration-log.md` — Audit trail for all ingestion batches. Includes batch entry template (source, conversations processed, records created, deduplication actions, conflicts flagged, ignored conversations, open questions). Resumable across sessions.
+    -
+    - ### Architecture Note
+    - The ingestion pipeline now has five distinct steps where v0.7.3 had three. The additions — Classify and Deduplicate — address the core risk of a year-long collaboration corpus: noise ingestion and topic fragmentation. One authoritative synthesis per topic is more valuable than multiple partial records.
+    -
+    - ---
+    -
+    - ## [v0.7.3] — 2026-07-01
 
 ### Chat History Ingestion Infrastructure
 
