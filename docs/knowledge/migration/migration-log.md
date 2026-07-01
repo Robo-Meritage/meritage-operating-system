@@ -213,4 +213,57 @@ Update this log after every ingestion session.
 | "AI Business Model" (Jun 5, 2026) | AI tools | Review |
 
 
+### Batch 6 — 2026-07-01
+
+**Source:** Phase 1: Meritage Project (Feb–Jun 2026)
+**Conversations Processed:** 4 full reads (Response to Compensation Proposal/Jeanne Cummings; Subcontractor Agreements and IP; E&O Coverage Analysis/Scott Stepanik; GTM Call Follow-up/PlanNet)
+**Ingested By:** Claude Sonnet 4.6
+
+#### Records Created
+
+| File | Category | Topic |
+|---|---|---|
+| `hr/deal-principal-compensation-structure-2026-02.md` | hr/ | **Highest Priority** — Deal principal comp model confirmed: 15% of 60% net per deal; 40% house overhead; flat universal %; no base salary; Empire Builder $3,500/month |
+| `agreements/subcontractor-ip-protection-2026-03.md` | agreements/ | IP protection strategy: 3 protected assets (Meritage, Empire Builder, AppleBites); $5M pre-set IP value; attorney Helen follow-up |
+| `hr/eo-coverage-scott-stepanik-litigation-2026-02.md` | hr/ | **Sensitive** — Scott Stepanik lawsuit; biBERK E&O does not cover; 4 coverage barriers; Schmidt deal only $750K; litigation strategy |
+| `deal-analysis/plannet-engagement-fee-negotiation-2026-06.md` | deal-analysis/ | PlanNet (Andrew Harrod) engagement; non-standard 8/7/6/5/4% fee schedule; 3 firm positions (no carve-out, no discount, paid when paid) |
+
+#### Key Knowledge Milestones This Batch
+
+- **Internal Compensation Model Fully Documented:** Deal principals earn 15% of 60% net (after 40% house overhead). No base salary. Flat universal % for support staff. This is the first full record of Meritage's compensation architecture.
+- **Active Litigation Documented:** Scott Stepanik lawsuit (former contractor, Austrian citizen) against Meritage and Brian Franco personally. E&O does not cover. Defense will be out-of-pocket or via EPLI if it exists.
+- **IP Asset List Confirmed:** Meritage Partners, Empire Builder, AppleBites — all three identified as protected IP assets with $5M pre-set damages approach.
+
+#### Conflicts Flagged
+
+- **HIGH PRIORITY — Fee Structure Conflict:** PlanNet engagement uses 8/7/6/5/4% descending sell-side structure, conflicting with standard ascending 1/2/3/4/5% documented in Batch 5. Daniel must clarify which is standard and when each applies. (Pending)
+- **Scott Stepanik Litigation Status:** Unknown as of mid-2026. EPLI policy existence unconfirmed. (Pending)
+- **Empire Builder Pricing:** Confirmed at $3,500/month by Daniel, who considers it under-priced. (Pending pricing decision)
+
+    - ---
+
+### Batch 7 — Priority Queue
+
+**Highest Priority (Score 5):**
+| Conversation | Topic | Action |
+|---|---|---|
+| "Transcript Analysis and Prep" (Jun 24, 2026) | Call prep / transcript patterns | Review — may be transcripts/ |
+| "Due Diligence Preparation" (Jun 25, 2026) | DD process documentation | Review |
+| "CIM Comparison and Grading" (Jun 5, 2026) | CIM standards and grading | Create |
+| "Response to Carter" (date TBD) | Deal negotiation patterns | Review |
+| "Schmidt Deal Pay Breakdown" (date TBD) | Deal-specific (Schmidt $750K) | Review — connects to litigation |
+| "Follow-up Call Prep" (Jun 17, 2026) | Deal/call prep | Review |
+| "Quarterly Review Summary" (date TBD) | Company performance review | Review |
+
+**Medium Priority (Score 4):**
+| Conversation | Topic | Action |
+|---|---|---|
+| "Deal Management Coaching" (Jun 12, 2026) | Deal management patterns | Review |
+| "Redline JV Agreement" (date TBD) | JV redline patterns | Update agreements/ |
+| "Employee vs Contractor Classification" (date TBD) | Contractor classification rules | Review |
+| "CIM Questionnaire for Clarity" (date TBD) | CIM process | Review |
+| "New Hire Onboarding Review" (date TBD) | Onboarding patterns | Review — update hr/ |
+| "Calculate adjusted EBITDA" (date TBD) | EBITDA methodology | Review |
+
+
 *Part of the [Meritage Operating System](../../../README.md). See [CONTRIBUTING.md](../../../CONTRIBUTING.md) for standards.*
