@@ -156,4 +156,61 @@ Update this log after every ingestion session.
                                       
                                        - ---
 
-                                       *Part of the [Meritage Operating System](../../../README.md). See [CONTRIBUTING.md](../../../CONTRIBUTING.md) for standards.*
+                                       ### Batch 5 — 2026-07-01
+
+**Source:** Phase 1: Meritage Project (May–Jun 2026)
+**Conversations Processed:** 5 full reads (Exhibit A Rewrite; AppleBites Pathway Breakdown; M&A Firm Clarification; Trial Structure Confirmation/DealJet; Lou's Term Sheet Review/Opus JV)
+**Ingested By:** Claude Sonnet 4.6
+
+#### Records Created/Updated
+
+| File | Category | Topic |
+|---|---|---|
+| `reverse-lehman-fee-framework-2026-05.md` | agreements/ | **UPDATED** — Sell-side Reverse Lehman tiers confirmed (ascending 1/2/3/4/5%), flat threshold structure added, open questions resolved |
+| `applebites/meritage-ecosystem-pathway-architecture-2026-04.md` | applebites/ | First AppleBites record — Three-pathway ecosystem (AppleBites/Empire Builder/Advisory), routing decision tree, exit readiness criteria |
+| `emails/broker-to-broker-positioning-2026-03.md` | emails/ | Broker-to-broker positioning patterns; "force clarity first" email templates; M&A Firm Clarification session |
+| `agreements/referral-partner-agreement-dealjet-2026-05.md` | agreements/ | DealJet trial structure (5 intros, 10% of fee, $3M EBITDA min, no upfront); 9-issue referral agreement review checklist |
+| `agreements/opus-jv-referral-term-sheet-review-2026-05.md` | agreements/ | Opus/Lou JV framework (50/50 net, 18-month tail); 6 issues in Lou's referral term sheet rejected; "separate JV from referral" pattern |
+
+#### Key Knowledge Milestones This Batch
+
+- **Critical Gap Resolved:** Sell-side Reverse Lehman tier structure confirmed as ascending (1%/2%/3%/4%/5%) from explicit client-facing Exhibit A. This resolves the highest-priority open question from Batches 1–4.
+- **First ApplebBites Record:** Three-pathway ecosystem fully documented for the first time in MOS.
+- **Referral Rate Patterns:** 10% of Meritage fee (DealJet, affiliates standard), 2% of Gross Advisory Fees (Fresh), 40% of gross rejected (Opus). Flag for Daniel: is there a standard referral rate policy?
+- **JV vs. Referral Distinction:** Established as separate structure types with different economics, accountability, and legal terms.
+
+#### Conflicts Flagged
+
+- Referral rate inconsistency: DealJet (10% of fee) vs. Fresh (2% of gross) vs. Opus rejected terms (40% gross). Needs reconciliation into standard policy. (Pending Daniel's review)
+- 19-step exit roadmap quoted from competitor (MP Advisory website) — does Meritage have a published version? (Pending)
+- Empire Builder membership details not documented — what does it cost, what does it include? (Pending)
+
+    - ---
+
+### Batch 6 — Priority Queue
+
+**Highest Priority (Score 5):**
+| Conversation | Topic | Action |
+|---|---|---|
+| "Compensation Structure for Analysis" (Feb 20, 2026) | Internal comp | Create |
+| "Subcontractor Agreements and IP" (Mar 25, 2026) | IP and contractor structure | Create |
+| "E&O Coverage Analysis" (Feb 4, 2026) | Insurance/liability | Create |
+| "Response to Carter" (date TBD) | Deal negotiation | Review — may be deal-specific |
+| "Schmidt Deal Pay Breakdown" (date TBD) | Deal-specific pay structure | Review |
+| "GTM Call Follow-up" (Jun 15, 2026) | GTM patterns | Review |
+| "Follow-up Call Prep" (Jun 17, 2026) | Deal prep patterns | Review |
+| "Transcript Analysis and Prep" (Jun 24, 2026) | Call prep patterns | Review |
+| "Due Diligence Preparation" (Jun 25, 2026) | DD process | Review |
+
+**Medium Priority (Score 4):**
+| Conversation | Topic | Action |
+|---|---|---|
+| "Deal Management Coaching" (Jun 12, 2026) | Deal management patterns | Review |
+| "Redline JV Agreement" (date TBD) | JV redline patterns | Update agreements/ |
+| "Email Rewrite Request" (May 12, 2026) | Email patterns | Update emails/ |
+| "Lehman scale updates" (date TBD) | Lehman/AppleBites | Review |
+| "CIM Comparison and Grading" (Jun 5, 2026) | CIM standards | Create |
+| "AI Business Model" (Jun 5, 2026) | AI tools | Review |
+
+
+*Part of the [Meritage Operating System](../../../README.md). See [CONTRIBUTING.md](../../../CONTRIBUTING.md) for standards.*
