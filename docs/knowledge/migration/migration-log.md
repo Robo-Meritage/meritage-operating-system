@@ -267,3 +267,102 @@ Update this log after every ingestion session.
 
 
 *Part of the [Meritage Operating System](../../../README.md). See [CONTRIBUTING.md](../../../CONTRIBUTING.md) for standards.*
+
+---
+
+### Batch 7 — 2026-07-01
+
+**Source:** Phase 1: Meritage Project (May–Jul 2026)
+**Conversations Processed:** 8 full reads (Transcript Analysis and Prep; Due Diligence Preparation/Gavnat; CIM Comparison and Grading; Follow-up Call Prep/Ganesh; GTM Call Follow-up/PlanNet; Engagement Agreement Comparison/SPR; Deal Management Coaching/Skinner; Agreement Cancellation Review/Stahl; Strategic Referral Partner Agreement/Fresh; Agreement Termination Clause/Skinner)
+**Ingested By:** Claude Sonnet 4.6
+**Note:** Session interrupted by computer crash after 3 records committed. Migration log completed in resumed session.
+
+#### Records Created
+
+| File | Category | Topic |
+|------|----------|-------|
+| `deal-readiness-assessment-framework-2026-06.md` | deal-analysis/ | Three-Tier Deal Readiness Model (pre-Brian intro gate); Gree HVAC transcript analysis |
+| `gavnat-acquisition-dd-management-2026-05.md` | deal-analysis/ | Gavnat acquisition due diligence management; DD room structure |
+| `cim-creation-standard-2026-06.md` | operations/ | CIM grading criteria; CIM creation standards; what makes a CIM investable |
+| `deal-pipeline-management-patterns-2026-06.md` | operations/ | Deal pipeline management model; buyer objection reframing; offer approval gates; buyer list accountability; Empire Builder feeder strategy |
+
+#### Records Reviewed — No New File Required (deduplicated to existing records)
+
+| Conversation | Disposition |
+|-------------|-------------|
+| Follow-up Call Prep (Ganesh — Jun 17) | Score 3 — Operational/vendor pattern. Ganesh EBITDA review vendor structure captured as decision context only. No net new institutional knowledge above existing operations docs. |
+| GTM Call Follow-up (PlanNet — Jun 15) | Score 2 — Confirms PlanNet email handling patterns already in `plannet-engagement-fee-negotiation-2026-06.md`. No new content. |
+| Engagement Agreement Comparison (SPR — Jun 12) | Score 3 — SPR Double Lehman vs. Reverse Lehman for $18-21M deal. Confirms fee framework. Small additions could go to spr-engagement-fee-negotiation but core knowledge already captured. Deduplication applied. |
+| Agreement Cancellation Review (Stahl — Jun 8) | Score 3 — Confirms termination protocol already in `advisor-onboarding-jessica-stahl-prior-agreement-2026-06.md`. Adds "within 12 months" clarification; existing record is comprehensive. Deduplication applied. |
+| Strategic Referral Partner Agreement (Fresh — Jun 26) | Score 3 — Full agreement text now in `referral-partner-agreement-fresh-2026-06.md`. COI waterfall already captured from prior Batch 5 record. Deduplication applied. |
+| Agreement Termination Clause (Skinner — Jul 1) | Score 4 — Skinner agreement full text and Section 12 gap analysis. Advisor compensation structure (50% company overhead / 50% distributable pool / 4% advisor / 18% principal advisor) confirms Batch 6 comp model. Termination clause improvements documented in `advisor-termination-clause-2026-07.md` (existing record already captured this). |
+
+#### Key Knowledge Milestones This Batch
+
+- **Deal Readiness Model:** Three-tier gate system before Brian/family office introduction is now documented for the first time in MOS.
+- **CIM Standards:** CIM grading criteria and quality standards documented.
+- **Deal Pipeline Patterns:** Formal operational patterns for pipeline management, buyer list accountability, Empire Builder feeder, and offer approval gates are now captured.
+- **Advisor Comp Confirmation:** 50% company / 50% distributable pool / 4% advisor / 18% principal advisor confirmed across two separate conversations.
+
+#### Conflicts Flagged
+
+| Conflict | Status |
+|---------|--------|
+| Ganesh EBITDA vendor relationship — build vs. buy decision pending | Pending Daniel's review |
+| Buyer list SLA — no documented standard for completion timing | Pending |
+| Empire Builder routing criteria — EBITDA threshold for redirect vs. M&A not defined | Pending |
+| Advisor termination Section 12 gap — "For Cause" definition missing from standard agreement | Pending — flag for Helen (attorney) |
+| SPR fee negotiation outcome — did they proceed on Reverse Lehman or Double Lehman? | Pending — deal status unknown |
+
+#### Conversations Classified as Score 1-2 (No Repository Action)
+
+- GTM Call Follow-up (PlanNet email thread) — Score 2
+- Follow-up Call Prep (Ganesh vendor discussion) — Score 3 (no new file)
+
+---
+
+## Summary Statistics
+
+| Metric | Value |
+|--------|-------|
+| Total batches completed | 7 |
+| Total conversations processed (full read) | ~25 |
+| Total conversations surveyed (corpus sizing) | ~175 |
+| Total records created | 12 |
+| Total records updated (deduplication) | 4 |
+| Total conflicts flagged | 15+ |
+| Total conversations classified as Ignore | 0 |
+| Phase 1 status | In progress — ~25 of ~175 processed |
+| Phase 2 status | Not started |
+
+---
+
+## Batch 8 — Priority Queue
+
+### Highest Priority (Score 5):
+
+| Conversation | Topic | Action |
+|-------------|-------|--------|
+| "Exporting Project Data" (Jul 1, 2026) | Migration setup | Review — may be meta |
+| "Offer Letter for Nick" (Jun 24, 2026) | Nick Pond contractor agreement | Review — update hr/ |
+| "Response to Carter" (date TBD) | Deal negotiation patterns | Review |
+| "Schmidt Deal Pay Breakdown" (date TBD) | Deal-specific (Schmidt $750K) | Review — connects to litigation |
+| "Quarterly Review Summary" (date TBD) | Company performance review | Review |
+
+### Medium Priority (Score 4):
+
+| Conversation | Topic | Action |
+|-------------|-------|--------|
+| "Redline JV Agreement" (date TBD) | JV redline patterns | Update agreements/ |
+| "Employee vs Contractor Classification" (date TBD) | Contractor classification rules | Review |
+| "New Hire Onboarding Review" (date TBD) | Onboarding patterns | Update hr/ |
+| "Calculate adjusted EBITDA" (date TBD) | EBITDA methodology | Review |
+| "Post for Jack Hanks Classes" (Jun 4) | GTM/marketing patterns | Review |
+| "Meritage M&A Advisor Perspective" (Jun 4) | Positioning language | Update marketing/ |
+| "Filling out payroll details" (May 29) | Payroll/HR policy | Review |
+| "Email Notification Draft" (May 27) | Email templates | Update marketing/ |
+| "Management Call Prep Outline" (Jun 1) | Deal management | Update operations/ |
+
+---
+
+*Part of the Meritage Operating System. See CONTRIBUTING.md for standards.*
