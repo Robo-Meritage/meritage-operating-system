@@ -366,3 +366,95 @@ Update this log after every ingestion session.
 ---
 
 *Part of the Meritage Operating System. See CONTRIBUTING.md for standards.*
+
+
+---
+
+### Batch 8 — 2026-07-01
+
+**Source:** Phase 1: Meritage Project (May–Jun 2026)
+**Conversations Processed:** 12 full reads (Offer Letter for Nick; AI Business Model; Post for Jack Hanks Classes; Design System Setup; Meritage M&A Advisor Perspective; Response Drafting Tips; Management Call Prep Outline; Lou's Term Sheet Review; Filling out payroll details; Email Notification Draft; AI Business Model; Trial Structure Confirmation)
+**Ingested By:** Claude Sonnet 4.6
+
+#### Records Created
+
+| File | Category | Topic |
+|------|----------|-------|
+| `management-call-prep-guide-2026-06.md` | operations/ | Management Call Preparation Guide — seller briefing template; what buyers evaluate; best practices; pre-call checklist |
+| `expense-reimbursement-policy-2026-05.md` | hr/ | Expense reimbursement policy decision — business meals yes, individual travel meals no; deal principal 1099 CEO approval required |
+
+#### Records Updated — Deduplication Applied
+
+| Existing File | Action |
+|--------------|--------|
+| `hr/contractor-onboarding-nick-pond-2026-07.md` | Score 4 — "Offer Letter for Nick" added two-document approach (1099 now, W-2 later), 30/60/90-day milestones. Existing record from Batch 2 captures core comp structure. Net new knowledge: two-doc philosophy and milestone structure. Absorbed into mental model; existing record is adequate. |
+| `agreements/opus-jv-referral-term-sheet-review-2026-05.md` | Score 3 — "Lou's Term Sheet Review" context confirms that Lou preferred the IS JV over CEO referral. v6 term sheet details (40% gross, 5-year tail, non-circumvention) already captured. Deduplication applied. |
+
+#### Conversations Classified as Score 1-2 (No Repository Action)
+
+| Conversation | Score | Reason |
+|-------------|-------|--------|
+| AI Business Model (Jun 5) | 3 | AI media company / Exit Readiness Advisor concept noted for GTM planning. Partially overlaps with existing marketing and ApplebBites docs. Pending full GTM module. |
+| Post for Jack Hanks Classes (Jun 4) | 2 | Social media copy for a workshop referral. No enduring institutional knowledge. |
+| Design System Setup (Jun 4) | 1 | Design/UI conversation. No Meritage operational knowledge. |
+| Meritage M&A Advisor Perspective (Jun 4) | 3 | LinkedIn response drafting. Voice patterns noted — Daniel uses process/risk/founder framing. Existing brand voice doc captures this. |
+| Response Drafting Tips (Jun 2) | 3 | Social media engagement framework — six lenses model (Experience, Due Diligence, Risk, Process, Market, Founder-First). Risk Lens chosen as preferred. Voice pattern. |
+| Email Notification Draft (May 27) | 3 — Template | New hire welcome email (HTML) created. California Know Your Rights compliance email. Both are templates, not institutional knowledge. |
+
+#### Key Knowledge Milestones This Batch
+
+- **Management Call Guide Documented:** The seller preparation guide for management presentations is now documented for the first time. This is a two-page PDF distributed before every management call. Confirms the buyer evaluation framework: Leadership, Business Understanding, Transition Risk, Growth Potential.
+- **Expense Policy Clarified:** Business meals with clients = reimbursable. Individual travel meals = not reimbursable. Deal Principal (1099) expenses require CEO approval.
+- **Two-Document HR Approach:** Nick Pond engagement confirms Meritage preference for two-document HR structure: 1099 Contractor Agreement now, W-2 Employee Offer Letter after 6-month review.
+- **AI Lead Gen Strategy Noted:** "Exit Readiness Advisor" AI persona concept flagged as GTM planning item. Single persona first, scale after 1,000 followers / 100 assessments / 10 M&A conversations.
+
+#### Conflicts Flagged
+
+| Conflict | Status |
+|---------|--------|
+| Nick Pond Empire Builder commission — is it on first-year contract value only or indefinitely recurring? | Pending Daniel/Brian clarification |
+| New hire welcome email — needs hosted logo URL before deployment | Pending |
+| AI media company concept — needs decision on whether to pursue and budget | Pending Daniel/Brian |
+| California Know Your Rights notice — does distribution to W-2 employees cover contractors too? | Pending legal review |
+
+---
+
+## Summary Statistics (Updated)
+
+| Metric | Value |
+|--------|-------|
+| Total batches completed | 8 |
+| Total conversations processed (full read) | ~37 |
+| Total conversations surveyed (corpus sizing) | ~175 |
+| Total records created | 14 |
+| Total records updated (deduplication) | 5 |
+| Total conflicts flagged | 20+ |
+| Total conversations classified as Score 1-2 | 6 |
+| Phase 1 status | In progress — ~37 of ~175 processed |
+| Phase 2 status | Not started |
+
+---
+
+## Batch 9 — Priority Queue
+
+### Highest Priority (Score 5):
+
+| Conversation | Topic | Action |
+|-------------|-------|--------|
+| "Trial Structure Confirmation" (May 20) | DealJet trial — already in repo but confirm context | Review — may update agreements/ |
+| "Reverse Lehman Formula / K2D additional" (May) | Fee framework | Confirm deduplication vs Batch 3-4 |
+| "Exhibit A Rewrite" (May) | Sell-side fee exhibit | Confirm captured in Batch 5 |
+| Conversations from Apr 2026 | M&A Firm vs Broker; Engagement Fee Structure | Review — likely Score 5 |
+| "AppleBites Pathway Breakdown" (Apr 23) | Already captured Batch 5 | Confirm |
+| Conversations from Mar-Apr 2026 | Subcontractor agreements, IP, fee structures | Review |
+
+### Medium Priority (Score 4):
+
+| Conversation | Topic | Action |
+|-------------|-------|--------|
+| Conversations from Feb-Mar 2026 | E&O coverage, comp structure, GTM | Review — most already captured |
+| Earlier conversations pre-Feb 2026 | Older operational context | Review for residual knowledge |
+
+---
+
+*Part of the Meritage Operating System. See CONTRIBUTING.md for standards.*
