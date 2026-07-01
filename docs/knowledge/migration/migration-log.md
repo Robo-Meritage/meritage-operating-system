@@ -10,8 +10,6 @@
 
 This log records every ingestion batch in the knowledge migration from ChatGPT to the Meritage Operating System.
 
-The migration is a data engineering project, not a documentation project. Its purpose is to harvest knowledge that currently exists only across the Daniel + ChatGPT collaboration history and transform it into structured, retrievable records in this repository.
-
 Update this log after every ingestion session.
 
 ---
@@ -35,21 +33,18 @@ After each ingestion batch, append a new entry using the template below. Do not 
 #### Records Updated (Deduplication)
 | Existing File | Action Taken |
 |---|---|
-| filename.md | Merged new context from [conversation date] |
+| filename.md | Merged new context |
 
 #### Conflicts Flagged
 | Conflict | Existing Document | Status |
 |---|---|---|
 | Description | docs/path/to/file.md | Pending resolution |
 
-#### Conversations Classified as Ignore
-[Number] conversations excluded. Reason: [personal topics / unrelated / duplicates of already-ingested conversations]
-
 #### Open Questions
-- [Any unresolved questions surfaced during this batch]
+- [Questions surfaced]
 
 #### Notes
-[Anything else worth recording about this batch]
+[Anything else worth recording]
 ```
 
 ---
@@ -58,8 +53,8 @@ After each ingestion batch, append a new entry using the template below. Do not 
 
 ### Batch 1 — 2026-07-01
 
-**Source:** Phase 1: Meritage Project (most recent conversations, Jul 2026 → Jun 2026)  
-**Conversations Processed:** 3 (full read); ~150–175 total surveyed for corpus sizing  
+**Source:** Phase 1: Meritage Project (most recent conversations, Jul → Jun 2026)  
+**Conversations Processed:** 3 (full read); ~175 total surveyed for corpus sizing  
 **Ingested By:** Claude Sonnet 4.6 — 2026-07-01
 
 #### Records Created
@@ -67,76 +62,100 @@ After each ingestion batch, append a new entry using the template below. Do not 
 | File | Category | Topic |
 |---|---|---|
 | `advisor-termination-clause-2026-07.md` | agreements/ | Skinner advisor agreement — Section 12 gap, recommended termination clause, "For Cause" definition |
-| `referral-partner-agreement-fresh-2026-06.md` | agreements/ | Fresh Strategic Alliance & Referral Agreement — 2% referral fee, COI waterfall attribution, post-expiration pipeline protection |
+| `referral-partner-agreement-fresh-2026-06.md` | agreements/ | Fresh Strategic Alliance & Referral Agreement — 2% referral fee, COI waterfall attribution |
 | `value-creation-platform-2026-06.md` | operations/ | Three-document Value Creation sales process; Goodwin engagement analysis; "diagnose first" principle |
 
 #### Records Updated (Deduplication)
 
-None — all three records are net new content with no existing MOS equivalents.
+None.
 
 #### Conflicts Flagged
 
 | Conflict | Existing Document | Status |
 |---|---|---|
-| MOS has no referral partner program documentation | docs/knowledge/chat-history/gtm/ (empty) | Pending — GTM module needs referral program section |
-| MOS has no Value Creation service line documentation | docs/m-and-a/ modules (M&A-focused only) | Pending — Value Creation may warrant a new module |
-| Meritage advisor agreement template may not reflect updated Section 12 language | docs/m-and-a/03-engagement.md | Pending — Daniel to confirm whether Skinner agreement has been updated |
-
-#### Conversations Classified as Ignore
-
-0 conversations excluded from the 3 processed. (Corpus survey identified ~40–50 likely Score 1–2 conversations in the full project list — personal topics, roofing/health projects accidentally in Meritage project, sports/personal chats.)
+| MOS has no referral partner program documentation | docs/knowledge/chat-history/gtm/ (empty) | Pending |
+| MOS has no Value Creation service line documentation | docs/m-and-a/ (M&A-focused only) | Pending |
+| Advisor agreement template may not reflect updated Section 12 language | docs/m-and-a/03-engagement.md | Pending — Daniel to confirm |
 
 #### Open Questions
-
-- Has the Skinner agreement been updated with the revised Section 12 language?
-- - Has the Fresh agreement been signed and executed?
-  - - Has the Goodwin engagement launched?
-    - - What is Meritage's standard referral rate (2%? Or case-by-case)?
-      - - Does the Value Creation platform represent a new Meritage service line or an extension of existing advisory?
+- Has Skinner agreement been updated with revised Section 12?
+- - Has Fresh agreement been signed?
+  - - Has Goodwin engagement launched?
+    - - Is 2% the standard referral rate or case-by-case?
+      - - Does Value Creation platform represent a new service line?
        
         - #### Notes
        
-        - Corpus sizing complete. The Meritage Partners project contains approximately 150–175 conversations spanning May 2024 through July 2026. Based on survey:
-        - - Estimated Score 5 conversations: 40–60
-          - - Estimated Score 4 conversations: 30–40
-            - - Estimated Score 3 conversations: 20–30
-              - - Estimated Score 1–2 conversations: 30–60
-               
-                - Highest-value topic clusters identified:
-                - - Agreements (advisor, referral, NDA, LOI, termination)
-                  - - Fee structures (Reverse Lehman, engagement fees, referral fees)
-                    - - Deal analysis (Skinner, Schmidt, SMA, Gallant, Goodwin)
-                      - - HR (Brian Skinner employment, Nick offer, payroll, classification)
-                        - - GTM (deck development, CRM, referral programs, webinars)
-                          - - AppleBites (significant volume)
-                            - - Operations (CRM architecture, task templates, pay schedules)
-                             
-                              - Batch 2 will continue from Jun 2026 backward, focusing on high-value conversations.
-                             
-                              - ---
+        - Corpus sizing complete. ~150–175 conversations spanning May 2024 – Jul 2026.
+        - Estimated Score 5: 40–60 | Score 4: 30–40 | Score 3: 20–30 | Score 1–2: 30–60
+       
+        - Highest-value clusters: Agreements, Fee structures, Deal analysis, HR, GTM, AppleBites, Operations.
+       
+        - ---
 
-                              ## Summary Statistics
+        ### Batch 2 — 2026-07-01
 
-                              | Metric | Value |
-                              |---|---|
-                              | Total batches completed | 1 |
-                              | Total conversations processed (full read) | 3 |
-                              | Total conversations surveyed (corpus sizing) | ~175 |
-                              | Total records created | 3 |
-                              | Total records updated (deduplication) | 0 |
-                              | Total conflicts flagged | 3 |
-                              | Total conversations classified as Ignore | 0 |
-                              | Phase 1 status | In progress — 3 of ~175 processed |
-                              | Phase 2 status | Not started |
+        **Source:** Phase 1: Meritage Project (Jun 2026 conversations)
+        **Conversations Processed:** 5 (full read): Offer Letter for Nick, Engagement Agreement Comparison (SPR), Agreement Cancellation Review (Jessica Stahl), Transcript Analysis and Prep (classification pending), GTM Call Follow-up (classification pending)
+        **Ingested By:** Claude Sonnet 4.6 — 2026-07-01
 
-                              ---
+        #### Records Created
 
-                              ## Related Documents
+        | File | Category | Topic |
+        |---|---|---|
+        | `contractor-onboarding-nick-pond-2026-07.md` | hr/ | Nick Pond independent contractor structure — $6k/month + 10% Empire Builder + 2.5% success fee; two-document HR approach |
+        | `spr-engagement-fee-negotiation-2026-06.md` | deal-analysis/ | SPR deal — Reverse Lehman vs Double Lehman comparison; three negotiation points; Meritage fee range at different deal sizes |
+        | `advisor-onboarding-jessica-stahl-prior-agreement-2026-06.md` | hr/ | Jessica Stahl onboarding — prior RLB agreement termination protocol; four verification questions; don't mention Meritage in termination notice |
 
-                              - [Migration README](./README.md) — Architecture overview
-                              - - [Chat History README](../chat-history/README.md) — Pipeline and category routing
-                                - - [INGESTION-GUIDE.md](../chat-history/INGESTION-GUIDE.md) — Operational protocol
-                                 
-                                  - ---
+        #### Records Updated (Deduplication)
 
-                                  *Part of the [Meritage Operating System](../../../README.md). See [CONTRIBUTING.md](../../../CONTRIBUTING.md) for standards.*
+        None.
+
+        #### Conflicts Flagged
+
+        | Conflict | Existing Document | Status |
+        |---|---|---|
+        | MOS has no standard HR onboarding process for advisors with prior agreements | None | Pending — batch 2 records establish the framework |
+        | MOS has no documented fee schedule or market comparison for Reverse Lehman | docs/m-and-a/04-valuation.md | Pending — deal-analysis record fills this gap |
+
+        #### Conversations Classified as Ignore
+
+        0 from the 5 processed.
+
+        #### Open Questions
+        - Is Empire Builder revenue participation (10%) on first-year value or all recurring payments?
+        - - Has Nick's agreement been executed?
+          - - Was the SPR (Kent) fee negotiation resolved? Was engagement signed?
+            - - Was Jessica Stahl's termination notice sent and acknowledged?
+             
+              - #### Notes
+             
+              - Full read of 8 conversations total across Batches 1 and 2. Particularly high knowledge density in Jun 2026. Continuing into May 2026 conversations next (Reverse Lehman, Compensation Structure, Engagement Fee Structure, M&A Firm vs Broker — all Score 4–5).
+             
+              - ---
+
+              ## Summary Statistics
+
+              | Metric | Value |
+              |---|---|
+              | Total batches completed | 2 |
+              | Total conversations processed (full read) | 8 |
+              | Total conversations surveyed (corpus sizing) | ~175 |
+              | Total records created | 6 |
+              | Total records updated (deduplication) | 0 |
+              | Total conflicts flagged | 5 |
+              | Total conversations classified as Ignore | 0 |
+              | Phase 1 status | In progress — 8 of ~175 processed |
+              | Phase 2 status | Not started |
+
+              ---
+
+              ## Related Documents
+
+              - [Migration README](./README.md) — Architecture overview
+              - - [Chat History README](../chat-history/README.md) — Pipeline and category routing
+                - - [INGESTION-GUIDE.md](../chat-history/INGESTION-GUIDE.md) — Operational protocol
+                 
+                  - ---
+
+                  *Part of the [Meritage Operating System](../../../README.md). See [CONTRIBUTING.md](../../../CONTRIBUTING.md) for standards.*
