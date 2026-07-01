@@ -1,4 +1,31 @@
-—————————–——————→# Changelog
+## [v0.7.2] — 2026-07-01
+
+### Knowledge Extraction Interview Series Initialized
+
+This milestone establishes the interview infrastructure for the knowledge extraction workstream and corrects a framing error from v0.7.1.
+
+**Framing correction:** The phrase "Knowledge That Lives Only in Daniel" has been replaced throughout the knowledge folder with the more accurate framing: **"Knowledge That Exists Only Across Daniel + ChatGPT."** The synthesized patterns from thousands of interactions are a form of knowledge that neither party holds alone. The interview series is designed to surface both sources.
+
+**New folder: docs/knowledge/interviews/**
+- `README.md` — establishes the interview methodology, the roles of subject/interviewer/encoder, session index, what each session produces, how to conduct a session, and six additional topics identified as recurring ChatGPT themes
+- - `interview-template.md` — the reusable blank format including: pre-session preparation (scope + opening questions + connections to prior sessions + known gaps), session summary, key insights table, decisions surfaced, positions challenged, open questions, repository updates, notes for next session
+  -
+  - **Six interview session files initialized:**
+  - - `session-01-strategy.md` — **Ready.** Pre-session preparation complete with 10 opening questions covering origin, differentiation, broker vs. advisor distinction, the client you said no to, valuation philosophy, market choice, success definition, competition, constraints, and beliefs not yet proven
+    - - `session-02-products.md` — Placeholder. Will cover AppleBites, Empire Builder, product strategy
+      - - `session-03-people.md` — Placeholder. Will cover Brian, team roles, decision rights, communication, hiring
+        - - `session-04-deals.md` — Placeholder. Will cover deal-level institutional knowledge, negotiation philosophy, red flags
+          - - `session-05-ai.md` — Placeholder. Will cover AI expectations, where AI should challenge vs. defer, common mistakes
+            - - `session-06-future.md` — Placeholder. Will cover three-to-five year direction, capabilities to build, services to avoid, what success looks like beyond revenue
+              -
+              - **Strategic framing:**
+              - The shift from inference to extraction is now structural. Claude no longer guesses at tacit knowledge — it creates the infrastructure to receive it. Daniel talks, the AI organizes and tests, Claude encodes. Each session produces a permanent record with traceability: if someone later asks why a principle exists, they can follow the link to the conversation that produced it.
+              -
+              - Session 01 (Meritage Strategy) is ready to run whenever Daniel is.
+              -
+              - ---
+              -
+              - —————————–——————→# Changelog
 
 All notable changes to the Meritage Operating System are documented here.
 
