@@ -1,4 +1,4 @@
-# Changelog
+———–——————→# Changelog
 
 All notable changes to the Meritage Operating System are documented here.
 
