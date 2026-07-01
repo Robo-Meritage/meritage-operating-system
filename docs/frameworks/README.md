@@ -1,6 +1,6 @@
 # docs/frameworks/
 
-> Reusable mental models for Meritage advisory work. Frameworks define thinking. Standards define expectations.
+> Reusable mental models for Meritage advisory work. Frameworks define thinking. Standards define expectations. Methods define execution.
 >
 > ---
 >
@@ -16,8 +16,6 @@
 > | **Standard** | Defines what a completed deliverable must contain | `docs/standards/` |
 > | **Method** | Defines how to execute a stage step by step | `docs/m-and-a/` |
 > | **Template** | Provides a blank starting structure | `docs/templates/` |
->
-> A Positioning Framework teaches an advisor *how to think about positioning*. A Positioning Standard defines *what a complete Positioning Brief must contain*. Module 05 defines *how to execute the positioning stage*. These are three different things, and each belongs in a different place.
 >
 > ## The Meritage IP Pyramid
 >
@@ -39,8 +37,6 @@
 >
 > Each layer depends on the layers above it. A method should be consistent with the framework that informs it. A standard should be consistent with the beliefs that motivate it. When beliefs change, every downstream artifact may need to be reviewed.
 >
-> This hierarchy is powerful because it lets you update a framework and reason about which downstream artifacts need to be revisited — rather than discovering inconsistencies when they surface in client engagements.
->
 > ## What Belongs Here
 >
 > A document belongs in `docs/frameworks/` if:
@@ -50,16 +46,12 @@
 >   - - It is distinct from any specific procedure or quality standard
 >     - - It captures judgment and analytical logic, not just process steps
 >      
->       - A document does **not** belong here if:
->       - - It is a sequence of process steps (that belongs in `docs/m-and-a/`)
->         - - It defines completion criteria for a deliverable (that belongs in `docs/standards/`)
->           - - It is a blank document shell for content to be filled in (that belongs in `docs/templates/`)
->            
->             - ## Current Frameworks
->            
->             - | Document | Description |
->             - |---|---|
->             - | [positioning-framework.md](positioning-framework.md) | The Meritage framework for translating valuation into investment narrative |
+>       - ## Current Frameworks
+>      
+>       - | Document | Description | Status |
+>       - |---|---|---|
+>       - | [meritage-5p-framework.md](meritage-5p-framework.md) | The proprietary qualification lens: People, Performance, Position, Potential, Preparedness | **Complete** |
+> | [positioning-framework.md](positioning-framework.md) | The framework for translating valuation into investment narrative | **Complete** |
 >
 > ## Frameworks in Development
 >
