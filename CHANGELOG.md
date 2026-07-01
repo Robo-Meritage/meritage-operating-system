@@ -6,7 +6,27 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) fo
 
 ---
 
-## [0.5.1] – 2026-06-29
+## [0.6.0] – 2026-06-29
+
+### Added
+
+MOS v0.6: Client Qualification & Engagement — capability-first sprint encoding the qualification decision engine.
+
+- `docs/frameworks/meritage-5p-framework.md` — The Meritage 5P Framework: proprietary qualification mental model evaluating every opportunity through People, Performance, Position, Potential, and Preparedness. Fully realized with what each lens evaluates, what excellent looks like, disqualifying signals in each lens, and how the framework recurs across the engagement lifecycle.
+- - `docs/m-and-a/02-qualification.md` — Module 02 fully realized: answers four questions (Should we take this client? Can we successfully represent them? What work is required before going to market? If we say no, why?). Includes the 5P Framework application, 100-point Qualification Score with 6 weighted categories, step-by-step qualification process, objective decline reason taxonomy, and complete Common Failure Modes section.
+  - - `docs/standards/client-qualification-standard.md` — The Meritage Client Qualification Standard: defines what a complete qualification assessment must contain (5 required components), minimum acceptable quality, conditions that preclude proceeding, conditions requiring documentation only, and disqualifying findings by 5P lens.
+    - - `docs/templates/qualification-discovery-questionnaire.md` — Structured discovery conversation guide organized by the 5P Framework. 60–90 minute interview structure with opening approach, section-by-section questions for all 5 lenses, closing protocol including the preliminary valuation expectations test, and post-meeting notes template.
+      - - `docs/templates/client-qualification-scorecard.md` — 100-point scoring instrument with 6 weighted categories (Financial Quality 20, Seller Readiness 20, Operational Maturity 20, Market Attractiveness 15, Growth Potential 15, Transaction Readiness 10). Includes scoring guidance per criterion, score interpretation guide (80–100 proceed, 65–79 proceed with caution, 50–64 conditional, <50 decline), disqualifying findings checklist, and qualification decision documentation section.
+        -
+        - ### Updated
+        -
+        - - `docs/frameworks/README.md` — Added 5P Framework to current frameworks table; marked both frameworks as Complete.
+          - - `docs/m-and-a/README.md` — Marked Module 02 as Complete.
+            - - `docs/INDEX.md` — Added 5P Framework to Frameworks section; added client-qualification-standard.md to Standards section; added two new templates to Templates section; marked Module 02 as Complete.
+              -
+              - ---
+              -
+              - ## [0.5.1] – 2026-06-29
 
 ### Added
 
