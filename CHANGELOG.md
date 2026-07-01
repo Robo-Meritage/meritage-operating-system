@@ -1,4 +1,32 @@
-## [v0.7.2] — 2026-07-01
+## [v0.7.3] — 2026-07-01
+
+### Chat History Ingestion Infrastructure
+
+This milestone establishes the ingestion layer for the ChatGPT-to-Claude knowledge migration. The recognition that drove this: the MOS captures final outputs. The 70–80% of knowledge that exists in the conversation corpus — decisions, rejected options, reasoning, preferences, patterns — does not yet exist in the repository. This is a data engineering problem, not a documentation problem.
+
+**New folder: docs/knowledge/chat-history/**
+- `README.md` — establishes the ingestion pipeline, the extraction format (Topic / Learned / Rejected / Accepted / Why / Patterns / Open Questions / Links), the folder taxonomy, ingestion status tracker, priority order, and a clear statement of the missing ingredient (Claude cannot access ChatGPT; conversations must be provided)
+- - `INGESTION-GUIDE.md` — the operational protocol: how to export ChatGPT conversations, the exact prompt to use when starting an ingestion session, what Claude does with each batch (identify → extract → categorize → flag conflicts → commit → update status), quality standards for extracted knowledge, batch size guidance, and what happens after ingestion
+  -
+  - **11 category subfolders initialized** (all awaiting corpus):
+  - - `agreements/` — Highest priority: engagement agreements, NDAs, affiliate agreements, LOIs
+    - - `applebites/` — High priority: completely absent from MOS
+      - - `empire-builder/` — High priority: completely absent from MOS
+        - - `deal-analysis/` — High priority: deal-level institutional knowledge
+          - - `emails/` — Email rewrites, templates, communication style
+            - - `gtm/` — Go-to-market strategy, referral programs
+              - - `hr/` — Hiring, onboarding, org design
+                - - `marketing/` — LinkedIn, webinars, content, brand
+                  - - `operations/` — CRM, systems, tools, workflows
+                    - - `transcripts/` — Call transcripts and meeting notes
+                      - - `weekly-calls/` — Recurring strategic discussions
+                        -
+                        - **Strategic framing:**
+                        - The next action is not building more repository structure. It is providing the corpus. The fastest path: export ChatGPT conversations via Settings → Data Controls → Export Data, then paste batches into Claude sessions using the prompt in INGESTION-GUIDE.md. Start with agreements — highest specificity, most decisions with explicit rationale. Claude processes each batch without requiring pre-filtering or pre-organization by Daniel.
+                        -
+                        - ---
+                        -
+                        - ## [v0.7.2] — 2026-07-01
 
 ### Knowledge Extraction Interview Series Initialized
 
