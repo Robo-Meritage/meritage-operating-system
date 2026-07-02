@@ -535,3 +535,60 @@ Update this log after every ingestion session.
 - Referral fee policy: what is the specific percentage rate for hand-off referrals? This was described but not quantified in this conversation.
 
 ---
+
+
+---
+
+## Batch 11 — April 2026 Conversations
+
+**Date Processed:** 2026-07-02  
+**Conversations Reviewed:** 11  
+**New Records Created:** 2  
+**Records Deduplicated/Merged:** 5  
+**Open Conflicts:** 0  
+
+### Conversations Processed
+
+| Title | Date | Score | Action |
+|-------|------|-------|--------|
+| Employee vs Contractor Classification | Apr 29 | 4 | Merged into quarterly-performance-review-framework (1099 classification rules) |
+| Workers Comp Setup Guide | Apr 27 | 1 | Ignored — personal W4 withholding, no institutional knowledge |
+| Quarterly Review Summary | Apr 27 | 4 | Created quarterly-performance-review-framework-2026-04.md |
+| Title Recommendations for 1099 | Apr 24 | 4 | Merged into quarterly-performance-review-framework (title risk taxonomy) |
+| AppleBites Pathway Breakdown | Apr 23 | 4 | Merged into applebites/meritage-ecosystem-pathway-architecture.md (3-pathway routing, objection framework) |
+| Reverse Lehman Formula | Apr 21 | 4 | Merged into deal-analysis/k2d-engagement-fee-negotiation.md (NDA-trigger buyer definition, fee protection mechanics) |
+| Compensation and Benefits Revision | Apr 20 | 4 | Merged into hr/deal-principal-compensation-structure.md (W2 offer letter with 7.25% net revenue variable comp) |
+| Engagement Fee Structure | Apr 15 | 5 | Created agreements/sell-side-engagement-fee-structure-2026-04.md |
+| Payment Summary and W2 Transition | Apr 10 | 3 | Noted in migration log — W2 transition for 4 core employees confirmed, ~$7K/year workers comp |
+| M&A Firm vs Broker | Apr 9 | 4 | Merged into emails/broker-to-broker-positioning.md (Broker vs M&A Process "vs." framework) |
+| Call Breakdown and Fee Framing | Apr 9 | 5 | Merged into agreements/sell-side-engagement-fee-structure-2026-04.md (Arkham/Naomi deal case, QoE positioning) |
+
+### New Records Created
+
+1. `agreements/sell-side-engagement-fee-structure-2026-04.md` — Comprehensive sell-side fee framework: $15K engagement + 3% success + 6% performance; 1%/2.5% existing vs. sourced buyer bifurcation; NDA-trigger buyer definition; QoE positioning; Arkham/Naomi case reference
+2. `hr/quarterly-performance-review-framework-2026-04.md` — Q1 2026 review process patterns, role-specific review standards (producers, ops, BD, finance), 1099 title governance, W2 transition record
+
+### Records Deduplicated or Merged
+
+1. **1099 contractor classification rules** → merged into quarterly-performance-review-framework (from Employee vs Contractor Classification conversation)
+2. **Advisor title risk taxonomy** → merged into quarterly-performance-review-framework (from Title Recommendations for 1099)
+3. **AppleBites 3-pathway routing logic** → merged into existing applebites file (from AppleBites Pathway Breakdown)
+4. **K2D NDA buyer attribution** → merged into existing k2d deal analysis (from Reverse Lehman Formula conversation)
+5. **W2 offer letter variable comp language** → merged into existing deal principal compensation file (from Compensation and Benefits Revision)
+
+### Priority Queue for Batch 12
+
+Continuing from April 2026 conversations into March 2026 and earlier:
+- Call Breakdown and Fee Framing deeper notes (completed)
+- Social Media Post Edit (Apr 7) — likely Score 2, content editing
+- Review Search Results (Apr 7) — likely Score 2, research
+- Monthly Review Summary (Apr 7) — likely Score 4, review process content
+- Course Timeline and Total Hours (Apr 6) — likely Score 2, logistics
+- SMA Acquisition Summary (Apr 6) — potentially Score 4, deal case study
+- Summary of Leadership Messages (Apr 6) — likely Score 3, leadership comms
+- Post Framing Suggestions (Apr 2) — likely Score 2-3, content
+- Operational Alignment Gaps (Mar 30) — likely Score 4-5, operations
+- Email Draft Summary (Mar 25) — likely Score 2
+- Subcontractor Agreements and IP (Mar 25) — likely Score 4, IP protection
+- New Hire Onboarding Review (Mar 23) — likely Score 4, HR
+- Gorilla Roofing Fee Reduction (Mar 19) — likely Score 4, deal case study
