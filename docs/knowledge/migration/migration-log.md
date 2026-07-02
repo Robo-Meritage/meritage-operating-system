@@ -702,3 +702,46 @@ Continuing from February 2026 into earlier conversations (January 2026 and earli
 - Addendum to agreement (Jan) — likely Score 4
 - Roofing company diagnostic questions (Jan) — likely Score 3-4
 - Success fee calculation (Jan) — likely Score 3-4
+
+
+---
+
+## Batch 14 — February-January 2026 Conversations
+
+**Date Processed:** 2026-07-02  
+**Conversations Reviewed:** 9  
+**New Records Created:** 0  
+**Records Deduplicated/Merged:** 7  
+**Open Conflicts:** 0  
+
+### Conversations Processed
+
+| Title | Date | Score | Action |
+|-------|------|-------|--------|
+| Bonus Structure Comparison | Feb 17 | 3 | Noted — VA bonus structure: variable $200-300/deal vs. fixed $4K pool amortized; confirmed offshore VA team; no new file needed |
+| Compensation Structure for Analysis | Feb 20 | 3 | Noted — deal comp modeling for specific transaction; already covered in fee structure files |
+| Missed Podcast Deliverables | Feb 5 | 2 | Ignored — operational logistics, no institutional knowledge |
+| Review of Requested Changes | Feb 4 | 4 | Merged — Brookens engagement agreement redline analysis: scope narrowed, negotiation optional, tail list-dependent, expense reimbursement client-controlled; confirms EA negotiation patterns |
+| Email Softening Tips | Feb 2 | 2 | Ignored — communication style coaching only |
+| Addendum to Agreement | Jan | 5 | Merged into hr/deal-principal-compensation-structure.md — Daniel Robosky COO addendum: title elevation to Chief Operating Officer, profit participation escalation 4% to 6% on revenue threshold + operational metrics in Exhibit A |
+| Production Process Mapping | Jan | 2 | Ignored — same Aaron Adams/Dylan client call as 6-month plan; no net new knowledge |
+| Roofing Company Diagnostic Questions | Jan | 3 | Noted — discovery question framework for operational consulting client; ScoreOrtho/Dylan roofing client; pattern may be useful for Empire Builder |
+| Success Fee Calculation | Jan | 4 | Merged into agreements/reverse-lehman-fee-framework.md — confirms Reverse Lehman structure (1%/2%/3%/4%/5% capped), introduces 4.69% flat fee alternative for specific deal contexts |
+
+### Key Merges
+
+1. **Daniel Robosky COO Addendum:** Title changed from Director of Operations to Chief Operating Officer. Profit participation escalates from 4% to 6% upon: (a) hitting revenue threshold, AND (b) meeting 2+ operational standards in Exhibit A. If revenue threshold met but operational standards missed, escalation subject to executive review — not automatic.
+2. **Reverse Lehman Confirmation:** Meritage's sell-side fee structure is: 1% on first $1M, 2% on second $1M, 3% on third $1M, 4% on fourth $1M, 5% on all above $4M. Applied to Enterprise Value. At a $23.8M EV, 90%+ of fee earned at the 5% cap rate.
+3. **Brookens EA Redline Patterns:** Key client-requested changes: (1) narrow Transaction definition to exclude independent capital raises, (2) make negotiation participation optional, (3) make tail protection list-dependent, (4) give client full control of expense reimbursement.
+
+### Priority Queue for Batch 15
+
+Continuing into the older conversations visible in the project list (late 2025):
+- Consultant Fee Structure Edit (Jan 28) — likely Score 3-4
+- Inc Magazine Paragraph Help (Jan 27) — likely Score 1-2
+- Meeting Agenda Draft (Jan 19) — likely Score 2
+- Less technical tone (Jan) — likely Score 2
+- Talk Titles for Morgan (Jan) — likely Score 2
+- VP due diligence title (Jan) — likely Score 2
+- Internship email draft (Jan) — likely Score 2
+- And the large group of 2025 conversations not yet loaded
