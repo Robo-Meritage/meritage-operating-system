@@ -592,3 +592,64 @@ Continuing from April 2026 conversations into March 2026 and earlier:
 - Subcontractor Agreements and IP (Mar 25) — likely Score 4, IP protection
 - New Hire Onboarding Review (Mar 23) — likely Score 4, HR
 - Gorilla Roofing Fee Reduction (Mar 19) — likely Score 4, deal case study
+
+
+---
+
+## Batch 12 — April-March 2026 Conversations
+
+**Date Processed:** 2026-07-02  
+**Conversations Reviewed:** 8  
+**New Records Created:** 3  
+**Records Deduplicated/Merged:** 4  
+**Open Conflicts:** 0  
+
+### Conversations Processed
+
+| Title | Date | Score | Action |
+|-------|------|-------|--------|
+| Social Media Post Edit | Apr 7 | 2 | Ignored — content editing only, no institutional knowledge |
+| Review Search Results | Apr 7 | 2 | Ignored — research task, no institutional knowledge |
+| Monthly Review Summary | Apr 7 | 3 | Noted — Joe McMahon review with financial data delay and approval bottleneck patterns; merged into quarterly-performance-review-framework |
+| Course Timeline and Total Hours | Apr 6 | 1 | Ignored — logistics planning, no institutional knowledge |
+| SMA Acquisition Summary | Apr 6 | 4 | Created deal-analysis/sma-bpo-acquisition-diligence-2026-04.md |
+| Summary of Leadership Messages | Apr 6 | 2 | Ignored — historical message forwarding, no net new patterns |
+| Post Framing Suggestions | Apr 2 | 2 | Ignored — social media content editing only |
+| Operational Alignment Gaps | Mar 30 | 5 | Created operations/training-vs-process-ownership-framework-2026-03.md |
+
+### Additional Conversations Processed (March 2026)
+
+| Title | Date | Score | Action |
+|-------|------|-------|--------|
+| Subcontractor Agreements and IP | Mar 25 | 4 | Merged into agreements/subcontractor-ip-protection-2026-05.md (IP valuation $5M liquidated damages concept, Helen as attorney) |
+| Gorilla Roofing Fee Reduction | Mar 19 | 4 | Created section within deal-analysis/sma-bpo-acquisition-diligence-2026-04.md; extends hr/eo-coverage-scott-stepanik-litigation.md |
+
+### New Records Created
+
+1. `operations/training-vs-process-ownership-framework-2026-03.md` — Training vs. Process vs. Ownership distinction, IOI/LOI evaluation standards, buyer quality vetting, client visibility requirements, Veran/Roam AI search prompt for extracting Brian's training expectations
+2. `deal-analysis/sma-bpo-acquisition-diligence-2026-04.md` — SMA BPO/VA platform acquisition case study, buy-side diligence framework for BPO/services platforms, PE owner unresponsiveness pattern, Gorilla Roofing fee reduction damage analysis
+3. Records from Batch 11: quarterly-performance-review-framework-2026-04.md (HR) and sell-side-engagement-fee-structure-2026-04.md (Agreements)
+
+### Records Deduplicated or Merged
+
+1. **Monthly Review financial delay patterns** → merged into quarterly-performance-review-framework (Joe McMahon approval bottleneck)
+2. **IP protection strategy** → merged into existing subcontractor-ip-protection file (liquidated damages concept, Helen attorney, $5M valuation)
+3. **Gorilla Roofing damage** → documented in sma deal analysis file + cross-referenced to E&O litigation file
+4. **AppleBites/Empire Builder IP assets** → confirmed in subcontractor IP conversation; already documented
+
+### Priority Queue for Batch 13
+
+Continuing from March 2026 into earlier conversations:
+- Email Assessment Update (Mar 18) — likely Score 2
+- M&A Firm Clarification (Mar 17) — likely Score 3-4, positioning content
+- CIM Questionnaire for Clarity (Mar 16) — likely Score 4-5, CIM standards
+- Affiliate Fee Calculation (Mar 16) — likely Score 3-4, fee computation
+- Meritage Integration Strategies (Mar 13) — likely Score 4, strategy
+- TikTok Scripts for M&A (Feb 26) — likely Score 2-3, content
+- Compensation Structure for Analysis (Feb 20) — likely Score 4, comp modeling
+- Document Content Editing (Feb 17) — likely Score 1
+- Bonus Structure Comparison (Feb 17) — likely Score 4, compensation
+- Pipeline alignment questions (Feb 9) — likely Score 4, deal pipeline
+- Missed Podcast Deliverables (Feb 5) — likely Score 2
+- E&O Coverage Analysis (Feb 4) — likely Score 4, litigation
+- 6 Month Plan Framework (Feb 3) — likely Score 4-5, strategic planning
