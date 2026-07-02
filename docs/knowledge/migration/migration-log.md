@@ -958,3 +958,46 @@ Low priority (likely Score 1–2, archive mentally unless flagged):
 - End of day recap template (135)
 
 Also to reconcile in final verification: confirm status of the most recent Meritage Partners conversations dated after the migration start (e.g., "Exporting Project Data", "Agreement Termination Clause") against the batch records.
+
+
+---
+
+## Batch 18 — Late 2025 Financial-Analysis & Fee Cluster
+
+**Date Processed:** 2026-07-02
+**Conversations Reviewed:** 2 full reads + classification of the remaining late-2025 low-value queue
+**New Records Created:** 1 (valuation standard populated from placeholder)
+**Records Updated:** 1
+**Open Conflicts:** 0
+
+### Conversations Processed
+
+| Title | Date | Score | Action |
+|-------|------|-------|--------|
+| Owner Replacement Salary Methods | 2025/Jun | 5 | Populated `standards/valuation-standard.md` — EBITDA normalization + owner replacement compensation methodology (replacement-cost approach; BLS OEWS / ERI / Salary.com / PayScale as primary sources; role-based estimation; 100/50/25% weighting; transaction-DB validation; NAICS 238160 worked example) |
+| Fee multiplier calculation (Aertrade, Tree Guardian) | 2025 | 3 | Merged into `reverse-lehman-fee-framework-2026-05.md` — confirmed **$250,000 minimum success fee (floor)**, floor-crossover (~$12–13M EV), worked examples. Also corroborates the ascending 1/2/3/4/5% sell-side scale (Daniel corrected ChatGPT's use of a standard front-weighted Lehman) |
+
+### New / Updated Records
+
+1. `standards/valuation-standard.md` — populated from an empty placeholder into a full Valuation & Financial Normalization Standard (pairs with M&A Module 04). Consolidates the EBITDA-cluster queue items (Standard EBITDA calculation, SMA EBITDA, EBITDA add-backs).
+2. `knowledge/chat-history/agreements/reverse-lehman-fee-framework-2026-05.md` — added the Minimum Success Fee ($250K floor) section; **resolved** the framework's own open question ("Is there a standard minimum fee?").
+
+### Deduplicated / Covered (no new record)
+
+- CRM deal multiplier range / EBITDA multiplier research (NAICS 621990) — covered by `deal-analysis/saas-crm-valuation-multiples-2025-10.md` and the new valuation standard.
+
+### Remaining queue — surveyed, low value (Score 1–2, no repository change per directive)
+
+These carry the preliminary scores assigned during the Batch 15/16 corpus survey and were confirmed as low-value; no enduring institutional knowledge to migrate:
+- New chat Idaho Hydrojetting (94) — deal research, one-off
+- Response to Paul Moerschel (103) — one-off client communication
+- Client notice draft (105) — one-off client communication
+- Performance review conversations (118, 120) — covered by `hr/quarterly-performance-review-framework-2026-04.md`
+- Slide/deck rebuild conversations (121–124) — production artifacts, no institutional pattern
+- HTML re-engagement emails (131) — email production
+- Fulfillment email drafts (133) — email production
+- End of day recap template (135) — covered by weekly/deal recap patterns already in operations
+
+### Flag for final verification
+
+- "Wagner FA worksheet clarification" (100) and "Compare financial statements" (101) could not be re-located via search this session (titles appear paraphrased in the queue). Both are financial-analysis items whose enduring methodology is now captured in the valuation standard; a final confirmation pass should verify no unique content remains.
