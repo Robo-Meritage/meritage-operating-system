@@ -84,6 +84,20 @@ For some sell-side engagements:
 
 ---
 
+## Meritage Minimum Success Fee (CONFIRMED)
+
+Meritage applies a **$250,000 minimum success fee ("floor")** on its standard Reverse Lehman engagements. The floor overrides the tiered percentage result whenever the calculated Reverse Lehman fee would fall below $250,000.
+
+- **Floor crossover:** on the ascending sell-side scale, the tiered fee surpasses the $250K floor only once enterprise value reaches roughly **$12–13M**. Below that, the fee is the $250K floor; above it, the tiered calculation governs.
+- **Worked examples (source: "Fee multiplier calculation"):**
+  - Aertrade — EV $4.4M–$10.4M -> tiered fee $120K–$225K, so **$250K floor applies**.
+  - Tree Guardian — EV $20M–$25M (~$3.5M EBITDA, 5–6.5x) -> tiered fee **$900K–$1.15M**, floor not applicable (exceeded).
+- Corroborated by the [SaaS/CRM Valuation Multiples Reference](../deal-analysis/saas-crm-valuation-multiples-2025-10.md) ("floor applied at lower EV," $250K–$420K).
+
+> Note: the flat-threshold and small-deal structures documented above carry no minimum fee, which Meritage flags as increased "tourist client" risk. The $250K floor applies to the standard Reverse Lehman model.
+
+---
+
 ## Alternative Buy-Side Engagement Models
 
 For the Merlin Law Group engagement, Meritage presented three buy-side engagement options:
@@ -169,7 +183,6 @@ Developed in response to K2D's buyer list requirement. Should be used in all fut
 
 ## Open Questions
 
-- Is there a standard minimum fee on Meritage engagements?
 - What is the standard tail period? (SPR referenced 12 months from Effective Date; Meritage prefers termination/expiration date language)
 - Tier breakpoint discrepancy: sell-side tiers are $1M increments up to $4M; buy-side tiers have wider bands ($5M, $10M, $20M). This may reflect different typical deal size ranges.
 
@@ -177,6 +190,7 @@ Developed in response to K2D's buyer list requirement. Should be used in all fut
 
 - docs/m-and-a/03-engagement.md references fees but does not document the fee schedule. This record should be used to update Module 03.
 - **RESOLVED (Jul 2026):** Sell-side exact tier breakpoints confirmed from Exhibit A Rewrite conversation.
+- **RESOLVED (Jul 2026):** Standard minimum success fee confirmed as **$250,000** (floor) on the standard Reverse Lehman model; see the Minimum Success Fee section above.
 
 ## Links
 
