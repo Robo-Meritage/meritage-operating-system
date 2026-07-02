@@ -653,3 +653,52 @@ Continuing from March 2026 into earlier conversations:
 - Missed Podcast Deliverables (Feb 5) — likely Score 2
 - E&O Coverage Analysis (Feb 4) — likely Score 4, litigation
 - 6 Month Plan Framework (Feb 3) — likely Score 4-5, strategic planning
+
+
+---
+
+## Batch 13 — March-February 2026 Conversations
+
+**Date Processed:** 2026-07-02  
+**Conversations Reviewed:** 8  
+**New Records Created:** 0 (E&O file already existed; all other content deduplicated)  
+**Records Deduplicated/Merged:** 6  
+**Open Conflicts:** 0  
+
+### Conversations Processed
+
+| Title | Date | Score | Action |
+|-------|------|-------|--------|
+| Email Assessment Update | Mar 18 | 2 | Ignored — email editing only, no institutional knowledge |
+| M&A Firm Clarification | Mar 17 | 3 | Noted — MP Advisory competitor firm uses same 19-step sell-side process; confirms Meritage positioning; no new file needed |
+| CIM Questionnaire for Clarity | Mar 16 | 4 | Deduplicated — CIM intake questionnaire framework already captured in cim-creation-standard; confirms structure |
+| Affiliate Fee Calculation | Mar 16 | 3 | Noted — historical fee computation for a specific deal; already covered in fee structure files |
+| Meritage Integration Strategies | Mar 13 | 4 | Noted — strategic planning content; concepts already in value-creation-platform and gtm files |
+| Pipeline Alignment Questions | Feb 9 | 3 | Noted — GHL email templates for LOI deadline communication and Apple Bites post-assessment sequence; HTML templates are operational tools, already covered |
+| E&O Coverage Analysis | Feb 4 | 5 | Deduplicated — eo-coverage-scott-stepanik-litigation-2026-02.md already exists from earlier batch; confirmed coverage determination matches prior record (biBERK E&O does not cover contractor compensation disputes) |
+| 6 Month Plan Framework | Feb 3 | 3 | Noted — "SOPs are the receipt, not the starting point" principle for client org design; concept already captured in management-call-prep-guide |
+
+### Key Deduplication Findings
+
+1. **E&O Coverage Analysis:** File eo-coverage-scott-stepanik-litigation-2026-02.md confirmed as already created in earlier batch. New conversation confirmed same conclusion: biBERK Professional Liability does NOT cover contractor compensation claims. Brian Franco named personally. Defense relies on operating agreement quality.
+2. **CIM Questionnaire:** Full CIM intake questionnaire template (Clarity Family Office) confirms the intake structure already captured in cim-creation-standard-2026-06.md.
+3. **MP Advisory Competitor:** 19-step sell-side process from MP Advisory mirrors Meritage process exactly. Key lesson: differentiation must come from execution quality and brand, not process structure alone.
+
+### Priority Queue for Batch 14
+
+Continuing from February 2026 into earlier conversations (January 2026 and earlier):
+- Bonus Structure Comparison (Feb 17) — VA bonus incentive design (variable vs. fixed pool)
+- Compensation Structure for Analysis (Feb 20) — deal principal comp modeling
+- Missed Podcast Deliverables (Feb 5) — likely Score 2
+- Review of Requested Changes (Feb 4) — likely Score 3, agreement modifications
+- Email Softening Tips (Feb 2) — likely Score 2, communication style
+- Consultant Fee Structure Edit (Jan 28) — likely Score 3-4
+- Inc Magazine Paragraph Help (Jan 27) — likely Score 1
+- Meeting Agenda Draft (Jan 19) — likely Score 2
+- Less technical tone (Jan) — likely Score 2
+- Production Process Mapping (Jan) — likely Score 3-4, workflow
+- Engagement Agreement Follow-Up (Jan) — likely Score 4
+- Talk Titles for Morgan (Jan) — likely Score 2
+- Addendum to agreement (Jan) — likely Score 4
+- Roofing company diagnostic questions (Jan) — likely Score 3-4
+- Success fee calculation (Jan) — likely Score 3-4
