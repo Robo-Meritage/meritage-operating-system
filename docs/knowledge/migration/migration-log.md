@@ -899,3 +899,62 @@ Approximately 30+ conversations remain from late 2025:
 - HTML re-engagement emails (131) — likely Score 2-3
 - Fulfillment email drafts (133) — likely Score 3
 - End of day recap template (135) — likely Score 3
+
+
+---
+
+## Batch 17 — Late 2025 Conversations + Fee Conflict Resolution
+
+**Date Processed:** 2026-07-02
+**Conversations Reviewed:** 3 (plus resolution of the Batch 16 fee-terminology conflict)
+**New Records Created:** 4
+**Records Updated:** 1
+**Open Conflicts:** 0 new (1 carried sub-item flagged for Daniel — see below)
+
+### Conversations Processed
+
+| Title | Date | Score | Action |
+|-------|------|-------|--------|
+| TRC Email Thread | Nov 2025 | 3 | Created `case-studies/trc-fee-dispute-case-study-2025-11.md` — "running out the clock" fee-avoidance tactic; Section 10 notice + Section 2 success-fee survival as contractual defense |
+| SaaS/CRM valuation research | Oct 2025 | 4 | Created `deal-analysis/saas-crm-valuation-multiples-2025-10.md` — ARR and EBITDA multiple reference ranges; when to use ARR vs EBITDA multiples |
+| New Hire Onboarding Review | 2025 | 5 | Created `technology/systems-and-file-management-standard.md` and `operations/new-hire-onboarding-checklist.md` — operating stack, system-of-record map, standard deal folder structure, Drive→Orangedox→Suralink document lifecycle, system-aligned onboarding checklist. Consolidates the onboarding-cluster queue items (Onboarding Questions, Onboarding email automation) |
+
+### New Records Created
+
+1. `case-studies/trc-fee-dispute-case-study-2025-11.md` (created earlier in interrupted Batch 17 session; now formally logged)
+2. `deal-analysis/saas-crm-valuation-multiples-2025-10.md` (created earlier in interrupted Batch 17 session; now formally logged)
+3. `technology/systems-and-file-management-standard.md` — fills the previously empty `docs/technology/` folder; operating stack (Google Drive = source of truth; MadeMarket, PandaDoc, Orangedox, Suralink, ROAM), standard deal folder structure (01–07), file-sharing workflow (moved not copied), document control standards
+4. `operations/new-hire-onboarding-checklist.md` — system-aligned onboarding checklist referencing the systems standard
+
+### Records Updated
+
+1. `operational-decisions/odr-001-reverse-lehman-fee-structure.md` — corrected the mechanics description (ascending sell-side scale, not "higher % on lower tranches"), retained "Reverse Lehman" branding, fixed malformed formatting
+
+### RESOLVED — Fee Structure Terminology (Batch 16 critical conflict)
+
+**Daniel's ruling (2026-07-02):** Keep "Reverse Lehman" as intentional client-facing branding; add a clarifying note documenting the actual mechanics so the math is unambiguous. Applied:
+- Sell-side: ascending 1% / 2% / 3% / 4% / 5% (capped at 5%), typically with a minimum fee floor on smaller deals.
+- Buy-side: descending 5% / 4% / 3% / 2% / 1%.
+- ODR-001 updated with a clarification note; branding retained across all docs (no renaming).
+
+**Remaining sub-item flagged for Daniel:** the ODR-001 *Rationale* section ("a $10M transaction requires nearly as much effort as a $25M transaction," "percentage increasing as value decreases") was written for the earlier descending interpretation and is inconsistent with the confirmed ascending scale. The rationale/economic justification for the ascending structure (and how the minimum fee floor protects small-deal economics) should be reviewed and rewritten by Daniel. Not changed — flagged.
+
+### Priority Queue for Batch 18 (remaining late-2025 conversations)
+
+Medium priority (likely Score 3):
+- New chat Idaho Hydrojetting (94) — deal research
+- Wagner FA worksheet clarification (100) — financial analysis
+- Compare financial statements (101) — financial analysis standards
+- Response to Paul Moerschel (103) — positioning/communication
+- Client notice draft (105) — client communication
+- SMA EBITDA (106) / Standard EBITDA calculation (107) — EBITDA normalization; candidate for a financial-analysis standard
+- Fee multiplier calculation (112) / CRM deal multiplier range (113) — check against saas-crm valuation doc before creating
+
+Low priority (likely Score 1–2, archive mentally unless flagged):
+- Performance review conversations (118, 120)
+- Slide/deck rebuild conversations (121–124)
+- HTML re-engagement emails (131)
+- Fulfillment email drafts (133)
+- End of day recap template (135)
+
+Also to reconcile in final verification: confirm status of the most recent Meritage Partners conversations dated after the migration start (e.g., "Exporting Project Data", "Agreement Termination Clause") against the batch records.
