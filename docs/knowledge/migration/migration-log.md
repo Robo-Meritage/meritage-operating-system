@@ -745,3 +745,80 @@ Continuing into the older conversations visible in the project list (late 2025):
 - VP due diligence title (Jan) — likely Score 2
 - Internship email draft (Jan) — likely Score 2
 - And the large group of 2025 conversations not yet loaded
+
+
+---
+
+## Batch 15 — Late 2025 Conversations (Jan 2026 to Dec 2025)
+
+**Date Processed:** 2026-07-02  
+**Conversations Reviewed:** 10  
+**New Records Created:** 0  
+**Records Deduplicated/Merged:** 7  
+**Open Conflicts:** 0  
+
+### Conversations Processed
+
+| Title | Date | Score | Action |
+|-------|------|-------|--------|
+| Inc Magazine Paragraph Help | Jan 27 | 1 | Ignored — personal writing for magazine submission |
+| Meeting Agenda Draft | Jan 19 | 2 | Ignored — operational logistics, no institutional knowledge |
+| Less Technical Tone | Jan | 2 | Ignored — writing style adjustment only |
+| Talk Titles for Morgan | Jan | 2 | Ignored — event speaker title brainstorming |
+| VP Due Diligence Title | Jan | 2 | Ignored — job title brainstorming |
+| Internship Email Draft | Jan | 2 | Ignored — one-off email for intern recruitment |
+| CIM Creation Process | Dec 1 | 3 | Noted — CIM Builder app development (GitHub Copilot) and 13-section CIM schema confirmed: Executive Summary, Company Overview, Products & Services, Customers & Markets, Operations & Supply Chain, Technology & Systems, Management & Employees, Sales & Marketing, Competition, Industry & Market Overview, Growth Strategy, Financial Overview, Transaction Details & Rationale |
+| GTM Process Refinement | Nov 2025 | 3 | Noted — GTM retainer model: $5K/month with: On-Site GTM Discovery, Market & Competitor Analysis, GTM Plan Development, Collateral Creation, Weekly Strategy Calls; Reverse Lehman success fee; already covered |
+| Compensation Attribution Revision | Nov 2025 | 4 | Merged into hr/deal-principal-compensation-structure.md — Brian Franco universal attribution: "credited and compensated on all engagements (sell-side and buy-side), regardless of source, nurture, or management responsibilities" |
+| Teaser Draft Creation | Oct 2025 | 4 | Noted — Shieldtech Roofing Solutions distressed capital raise teaser: $1.6M for 51% stake; confirms teaser structure for distressed seller scenarios |
+
+### Key Merges
+
+1. **Brian Franco Universal Attribution Rule:** All deals (sell-side and buy-side) regardless of source/nurture. Attribution documented via CRM tracking, confirmed by executive review. This supersedes any prior attribution restrictions.
+
+2. **CIM 13-Section Schema** (confirmed from CIM Builder AI system prompt):
+   1. Executive Summary
+   2. Company Overview
+   3. Products & Services
+   4. Customers & Markets
+   5. Operations & Supply Chain
+   6. Technology & Systems
+   7. Management & Employees
+   8. Sales & Marketing
+   9. Competition
+   10. Industry & Market Overview
+   11. Growth Strategy
+   12. Financial Overview
+   13. Transaction Details & Rationale
+
+### Remaining Conversations (Not Yet Reviewed)
+
+Approximately 50+ older conversations remain from Oct 2025 and earlier (conversations 91-140+ in the loaded panel). Key unread conversations by priority:
+
+**High Priority (likely Score 4-5):**
+- Recreate pipeline table (91) — CRM pipeline structure
+- Response to compensation proposal (92) — comp negotiation patterns
+- Meritage fee comparison (93) — fee benchmarking vs. competition
+- Onboarding Questions (95) — client onboarding framework
+- EBITDA add-backs analysis (96-97) — financial analysis standards
+- Compensation payment rewrite (130) — agreement language
+- Jacob monthly review guide (128) — performance framework
+
+**Medium Priority (likely Score 3):**
+- New chat - Idaho Hydrojetting research (94)
+- Wagner FA worksheet clarification (100)
+- Compare financial statements (101)
+- TRC Email Thread (102)
+- Client notice draft (105)
+- SMA EBITDA (106)
+- Standard EBITDA calculation (107)
+- Onboarding email automation (108)
+- Fee multiplier calculation (112)
+- CRM deal multiplier range (113)
+
+**Low Priority (likely Score 1-2):**
+- Scott Quarterly + Jacob build (118)
+- Performance review worksheet Scott (120)
+- Slide rebuild conversations (121-124)
+- HTML re-engagement emails (131)
+- Email template conversations (133-138)
