@@ -822,3 +822,80 @@ Approximately 50+ older conversations remain from Oct 2025 and earlier (conversa
 - Slide rebuild conversations (121-124)
 - HTML re-engagement emails (131)
 - Email template conversations (133-138)
+
+
+---
+
+## Batch 16 — Oct-Nov 2025 Conversations
+
+**Date Processed:** 2026-07-02  
+**Conversations Reviewed:** 8  
+**New Records Created:** 1  
+**Records Deduplicated/Merged:** 5  
+**Open Conflicts:** 1 (Fee structure terminology requires Daniel's review)  
+
+### Conversations Processed
+
+| Title | Date | Score | Action |
+|-------|------|-------|--------|
+| Meritage Fee Comparison | Jan 2026 | 5 | CRITICAL — Fee structure terminology corrected (see conflict note below) |
+| EBITDA Add-backs Analysis | Dec 2025 | 3 | Noted — golf club P&L add-backs analysis; deal-specific, no new institutional pattern |
+| Compensation Payment Rewrite | Oct 2025 | 4 | Merged into agreements files — monthly retainer model: $20K/month at $325/hr blended rate, 60-62 hours estimated, invoiced in advance, 7-day net, quarterly reconciliation |
+| Jacob Monthly Review Guide | Oct 2025 | 5 | Created applebites/applebites-ecosystem-product-spec-2025-10.md — full Apple Bites ecosystem spec, 4 modules, 3 assessment tiers, 180-day dev roadmap |
+| NDA Opening Clause Draft | Oct 2025 | 3 | Noted — standard mutual NDA language; already covered in agreements |
+| Recreate Pipeline Table | Oct 2025 | 3 | Noted — CRM pipeline stage descriptions; already covered in deal-pipeline-management |
+| Response to Compensation Proposal | Oct 2025 | 3 | Noted — comp negotiation with an advisor; confirms Meritage holds its fee structure against proposals |
+| EBITDA Interest Review | Dec 2025 | 2 | Ignored — technical EBITDA calc, no pattern changes |
+
+### New Records Created
+
+1. `applebites/applebites-ecosystem-product-spec-2025-10.md` — Complete Apple Bites product architecture: 4 modules (Apple Bites, CRM, Virtual Data Room, Team Management), 3 assessment tiers ($0/$795/$3,495), integration stack (Stripe, GHL, DocuSign, SendGrid, NAICS Crawler, G-Suite), 180-day development roadmap (Aug 2025-Feb 2026), three-pathway routing framework
+
+### CRITICAL CONFLICT — Fee Structure Terminology (REQUIRES DANIEL'S REVIEW)
+
+The "Meritage Fee Comparison" conversation reveals a critical terminology inconsistency in existing documentation:
+
+**Current repo documentation** references "Reverse Lehman" as Meritage's fee structure.
+
+**What the conversation actually shows:** Meritage uses an ASCENDING Lehman scale (1% on first $1M, 2% on second, 3% on third, 4% on fourth, 5% on all above $5M — capped at 5%). This is NOT a Reverse Lehman. Traditional Reverse Lehman is DESCENDING (starts high, ends low). Traditional Lehman starts high (5%) and goes down.
+
+**Meritage's structure is actually Ascending/Progressive:** starts at 1% and increases to a cap of 5%.
+
+**Fee calculation example (confirmed):**
+- $42M deal: $1,900,000 fee (4.52% effective rate)
+- $51M deal: $2,450,000 fee (4.80% effective rate)
+
+**Action required:** Daniel should confirm whether the term "Reverse Lehman" is intentional branding (Meritage uses the term as a marketing choice) or a mischaracterization that should be corrected in all documentation. Flagged for review — NOT changed in repo pending confirmation.
+
+### Monthly Retainer Rate (New Data Point)
+
+**Standard advisory retainer (monthly, non-transaction):**
+- Fee: $20,000/month
+- Basis: $325/hour blended rate
+- Hours: 60-62 hours estimated per month
+- Billing: Invoiced in advance
+- Payment terms: 7 days net
+- Reconciliation: Quarterly (hours tracked, variances noted)
+
+### Priority Queue for Batch 17
+
+Approximately 30+ conversations remain from late 2025:
+- Onboarding Questions (95) — client onboarding framework
+- New chat Idaho Hydrojetting (94) — likely Score 3, deal research
+- Wagner FA worksheet clarification (100) — financial analysis
+- Compare financial statements (101) — financial analysis standards
+- TRC Email Thread (102) — likely Score 3
+- Response to Paul Moerschel (103) — positioning/communication
+- Onboarding email creation (104) — likely Score 3
+- Client notice draft (105) — likely Score 3
+- SMA EBITDA (106) — deal-specific analysis
+- Standard EBITDA calculation (107) — standards
+- Onboarding email automation (108) — likely Score 3-4
+- Fee multiplier calculation (112) — fee modeling
+- CRM deal multiplier range (113) — valuation standards
+- GTM process refinement (116) — already reviewed
+- Performance review conversations (118, 120) — likely Score 3
+- Slide/deck conversations (121-124) — likely Score 2
+- HTML re-engagement emails (131) — likely Score 2-3
+- Fulfillment email drafts (133) — likely Score 3
+- End of day recap template (135) — likely Score 3
