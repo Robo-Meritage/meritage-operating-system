@@ -93,7 +93,7 @@
 > | IOI | Indication of Interest |
 > | QoE | Quality of Earnings report |
 > | SBA | Small Business Administration (loan programs) |
-> | Reverse Lehman | Our modified fee structure (see `docs/m-and-a/reverse-lehman-formula.md`) |
+> | Reverse Lehman | Meritage's fee structure (branding). Sell-side ascending 1/2/3/4/5% (5% cap), $250K minimum. See `../operational-decisions/odr-001-reverse-lehman-fee-structure.md`. |
 > | Management call | First buyer–seller meeting after NDA signing |
 > | CIM | Confidential Information Memorandum |
 > | Robosky | Robosky Consulting — our operational consulting arm |
@@ -199,4 +199,31 @@
 >      
 >       - ---
 >
-> *Last updated: 2026-06-29*
+> ## Key Operational Facts (Quick Reference)
+>
+> Load-bearing facts for answering Meritage operational questions. Each links to its authoritative document.
+>
+> **Fees — "Reverse Lehman" (branding).**
+> - Sell-side: ascending 1% / 2% / 3% / 4% / 5% by $1M tranche, **5% cap**.
+> - **$250,000 minimum success fee (floor)** — overrides the tiered result until ~$12–13M EV (the "floor crossover").
+> - Buy-side: descending 5% / 4% / 3% / 2% / 1%.
+> - Standard advisory retainer (non-transaction): $20,000/month at a $325/hr blended rate.
+> - Authoritative: [`ODR-001`](../operational-decisions/odr-001-reverse-lehman-fee-structure.md) · [`fee framework`](../knowledge/chat-history/agreements/reverse-lehman-fee-framework-2026-05.md)
+>
+> **Operating stack — system of record.**
+> - **Google Drive** = source of truth for all deal files. **MadeMarket** = pipeline / buyers / NDA tracking / CIM distribution. **PandaDoc** = NDAs & agreements. **Orangedox** = controlled distribution post-NDA. **Suralink** = diligence data room post-LOI. **ROAM** = internal comms.
+> - Standard deal folder structure (01 Financials → 07 Final Docs); documents are *moved, not copied* (Drive → Orangedox → Suralink).
+> - Authoritative: [`systems & file-management standard`](../technology/systems-and-file-management-standard.md)
+>
+> **Valuation & normalization.**
+> - Value from **normalized Adjusted EBITDA** × judgment-based multiple; develop a low/mid/target EV range.
+> - Owner compensation normalized via **replacement-cost method** (BLS OEWS / ERI / Salary.com / PayScale), role-weighted 100% / 50% / 25%.
+> - Authoritative: [`valuation standard`](../standards/valuation-standard.md) · [`SaaS/CRM multiples`](../deal-analysis/saas-crm-valuation-multiples-2025-10.md)
+>
+> **People & process.**
+> - New-hire onboarding: [`onboarding checklist`](../operations/new-hire-onboarding-checklist.md)
+> - Deal lifecycle & playbook: [`M&A modules 01–13`](../m-and-a/README.md)
+>
+> ---
+>
+> *Last updated: 2026-07-06*
