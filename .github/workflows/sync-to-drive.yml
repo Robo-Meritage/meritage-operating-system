@@ -1,0 +1,30 @@
+name: Sync docs to Google Drive
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'CLAUDE.md'
+      - 'AGENTS.md'
+      - 'CONTRIBUTING.md'
+      - '.github/workflows/sync-to-drive.yml'
+      - 'scripts/sync_to_drive.py'
+  schedule:
+    - cron: '0 7 * * *'   # daily backup run at 07:00 UTC
+  workflow_dispatch:       # lets you run it manually from the Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet google-api-python-client google-auth
+      - name: Mirror docs to Drive
+        env:
+          GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        run: python scripts/sync_to_drive.py
