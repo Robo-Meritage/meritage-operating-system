@@ -1,30 +1,20 @@
-name: Sync docs to Google Drive
+# DISABLED — do not auto-run.
+#
+# This key-based repo -> Google Drive sync was retired. Meritage's Google org
+# blocks service-account key creation (iam.disableServiceAccountKeyCreation),
+# which this approach required. The repo -> Drive mirror now runs via a Google
+# Apps Script that executes under a user account (no key, no GCP), so this
+# workflow and scripts/sync_to_drive.py are left only for reference.
+#
+# Runs only if triggered manually from the Actions tab.
+
+name: Sync docs to Google Drive (disabled)
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'docs/**'
-      - 'CLAUDE.md'
-      - 'AGENTS.md'
-      - 'CONTRIBUTING.md'
-      - '.github/workflows/sync-to-drive.yml'
-      - 'scripts/sync_to_drive.py'
-  schedule:
-    - cron: '0 7 * * *'   # daily backup run at 07:00 UTC
-  workflow_dispatch:       # lets you run it manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
-  sync:
+  noop:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - run: pip install --quiet google-api-python-client google-auth
-      - name: Mirror docs to Drive
-        env:
-          GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
-          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
-        run: python scripts/sync_to_drive.py
+      - run: echo "Disabled. Repo->Drive mirroring is handled by a Google Apps Script."
